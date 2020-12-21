@@ -13,7 +13,7 @@ public class MainMenuUI : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    public void QuiteSim()
+    public void QuitSim()
     {
         Application.Quit();
         Debug.Log("Quit");
