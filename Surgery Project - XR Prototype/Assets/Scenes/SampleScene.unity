@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -218,8 +218,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583096340}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_RigBaseGameObject: {fileID: 2074838380}
   m_CameraFloorOffsetObject: {fileID: 583096340}
   m_CameraGameObject: {fileID: 963194225}
-  m_TrackingOriginMode: 2
+  m_TrackingOriginMode: 1
   m_TrackingSpace: 3
   m_CameraYOffset: 1.36144
 --- !u!4 &2074838382
@@ -1155,8 +1155,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074838380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11.88}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.3, y: 0, z: -5.8}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 583096341}
   m_Father: {fileID: 0}
@@ -4787,7 +4787,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4339623, g: 0.26427492, b: 0.2272161, a: 0}
+  m_BackGroundColor: {r: 0.4339623, g: 0.26427492, b: 0.2272161, a: 1}
   m_projectionMatrixMode: 2
   m_GateFitMode: 4
   m_FOVAxisMode: 1
@@ -4796,10 +4796,10 @@ Camera:
   m_FocalLength: 1.0503113
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.65
-    y: 0.5
-    width: 0.5
-    height: 0.5
+    x: 0
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.01
   far clip plane: 1000
   field of view: 110
@@ -4810,12 +4810,12 @@ Camera:
     serializedVersion: 2
     m_Bits: 256
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: e4073f0bc094de345b18cd85872f983d, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -4934,7 +4934,6 @@ GameObject:
   - component: {fileID: 2817148438879261935}
   - component: {fileID: 2817148438879261932}
   - component: {fileID: 2817148438879261933}
-  - component: {fileID: 2817148438879261934}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -4989,20 +4988,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2817148438879261934
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2817148438879261928}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2817148438879261935
 Transform:
   m_ObjectHideFlags: 0
@@ -6669,7 +6654,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 5.633e-42, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 7.158e-42, z: 0, w: 42.75}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6885,7 +6870,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.00000016502673, y: 0, z: 0, w: 1e-45}
+  m_BoundingSphereOverride: {x: 0, y: 9.708e-42, z: 0, w: 2.015625}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
