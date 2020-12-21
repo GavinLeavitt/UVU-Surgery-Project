@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.thrashpanda.vr.simulator": "file:C:\\Users\\Gavin\\Documents\\School\\2020-2021 School Year\\Fall 2020\\Github Files\\UVU-Surgery-Project\\Surgery Project - XR Prototype\\Assets\\VRSimulator\\com.thrashpanda.vr.simulator-2.0.4.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "3.4.7",
@@ -14,8 +13,8 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.6",
     "com.unity.ugui": "1.0.0",
-    "com.unity.xr.interaction.toolkit": "0.0.6-preview",
-    "com.unity.xr.management": "3.2.13",
+    "com.unity.xr.interaction.toolkit": "1.0.0-pre.1",
+    "com.unity.xr.management": "3.2.16",
     "com.unity.xr.oculus": "1.4.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

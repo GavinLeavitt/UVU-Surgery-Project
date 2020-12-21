@@ -12,3 +12,5 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.management.vr_sim_settings: {fileID: 11400000, guid: 980f405925ebf1f48ae44e1cd094205f,
       type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 7e219de5aecd3524e9671ab44039fb79,
+      type: 2}
