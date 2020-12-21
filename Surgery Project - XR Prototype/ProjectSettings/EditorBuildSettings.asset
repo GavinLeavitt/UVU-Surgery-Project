@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: a02a69ddbdcc3453db715cd05d9c1e87
   - enabled: 1
-    path: Assets/Scenes/FulcrumTest.unity
-    guid: 9694dc089d63af047855860982daf5e8
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 929a02ebd175bc24ca979d4d4277340e,
       type: 2}
