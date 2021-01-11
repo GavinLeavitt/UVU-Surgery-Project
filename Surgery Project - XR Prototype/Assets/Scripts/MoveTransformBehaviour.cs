@@ -25,12 +25,4 @@ public class MoveTransformBehaviour : MonoBehaviour
         Quaternion target = Quaternion.Euler(removeXZ);
         myTransform.rotation = Quaternion.Slerp(myTransform.rotation, target, Time.deltaTime * smooth);
     }
-
-    public void RotateAlongZ(float amount)
-    {
-        myTransform.Rotate(0.0f, 0.0f, amount);
-        Quaternion tempTransform = myTransform.rotation;
-        tempTransform = new Quaternion(tempTransform.w, tempTransform.x, tempTransform.y, 0.0f);
-        myTransform.rotation = tempTransform;
-    }
 }
