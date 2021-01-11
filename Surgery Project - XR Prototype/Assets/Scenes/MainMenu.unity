@@ -3444,7 +3444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Oculus Quest II VR Simulation
+  m_Text: Oculus Quest 2 VR Simulation
 --- !u!222 &981037906
 CanvasRenderer:
   m_ObjectHideFlags: 0
