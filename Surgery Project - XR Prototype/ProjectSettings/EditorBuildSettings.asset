@@ -12,10 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/WhiteboxOR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+<<<<<<< Updated upstream
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 929a02ebd175bc24ca979d4d4277340e,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: b6110c8f378234146b77f666deb250fe,
       type: 2}
+=======
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 044277a915c4041858234197d11346a1,
+      type: 2}
+>>>>>>> Stashed changes
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1c0fc2c0570b66d4a929a491a5b05e3d,
       type: 2}
     com.unity.xr.management.vr_sim_settings: {fileID: 11400000, guid: 980f405925ebf1f48ae44e1cd094205f,
