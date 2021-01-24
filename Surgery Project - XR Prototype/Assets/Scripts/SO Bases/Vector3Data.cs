@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu]
 public class Vector3Data : ScriptableObject
@@ -10,5 +8,17 @@ public class Vector3Data : ScriptableObject
     public void CopyRotation(Transform rotationToCopy)
     {
         value = rotationToCopy.rotation.eulerAngles;
+    }
+
+    public void ChangeValueToPosition(Transform data)
+    {
+        value = data.position;
+    }
+    
+    public void ChangeValueToRotation(Transform data)
+    {
+        value.x = data.rotation.x;
+        value.y = data.rotation.y;
+        value.z = data.rotation.z;
     }
 }
