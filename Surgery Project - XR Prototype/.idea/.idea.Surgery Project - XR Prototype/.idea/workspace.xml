@@ -31,8 +31,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
       </list>
     </option>
@@ -97,7 +97,7 @@
       <workItem from="1611452994617" duration="704000" />
       <workItem from="1611455984292" duration="941000" />
       <workItem from="1611624743601" duration="4575000" />
-      <workItem from="1611686940320" duration="406000" />
+      <workItem from="1611686940320" duration="1547000" />
     </task>
     <servers />
   </component>
@@ -120,6 +120,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2294" y="-179" key="RiderGenerateDialog" timestamp="1611687255784">
+      <screen x="1920" y="-840" width="1080" height="1920" />
+    </state>
+    <state x="2294" y="-179" key="RiderGenerateDialog/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611687255784" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
