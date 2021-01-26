@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
+  m_Name: Tibial Guide Pin Drilled Step
+  m_EditorClassIdentifier: 
+  text: With the drill assembled, it's time to move it into position by inserting
+    the guide pin into the Drill Sleeve thats attached to the Caliper.
+  taskCompleteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectives:
+  - {fileID: 11400000, guid: f220f597a2b212742be51782ff389e61, type: 2}
+  - {fileID: 11400000, guid: 91aca3f4c8f997c46885553c1e8817a4, type: 2}

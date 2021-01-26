@@ -21,4 +21,14 @@ public class Vector3Data : ScriptableObject
         value.y = data.rotation.y;
         value.z = data.rotation.z;
     }
+
+    public void MoveToValue(GameObject obj)
+    {
+        obj.transform.position = value;
+    }
+
+    public void RotateToValue(GameObject obj)
+    {
+        obj.transform.eulerAngles = value;
+    }
 }

@@ -12,8 +12,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MainMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -26,10 +28,12 @@
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +96,7 @@
       <workItem from="1611278130478" duration="2132000" />
       <workItem from="1611452994617" duration="704000" />
       <workItem from="1611455984292" duration="941000" />
+      <workItem from="1611624743601" duration="4575000" />
     </task>
     <servers />
   </component>

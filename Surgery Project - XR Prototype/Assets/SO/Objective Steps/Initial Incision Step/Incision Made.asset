@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Initial Incision Step
+  m_Script: {fileID: 11500000, guid: dc9435bd43f45cc4096f7d1f53c613bb, type: 3}
+  m_Name: Incision Made
   m_EditorClassIdentifier: 
-  text: Using a scapel, make an incision on the left side of the patient's knee
+  objective: 1
