@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu]
-public class ObjectiveSO : ScriptableObject
+public class ObjectiveSO : ScriptableObject, ISerializationCallbackReceiver
 {
     [TextArea(10,20)]
     public string text;
@@ -11,6 +11,9 @@ public class ObjectiveSO : ScriptableObject
     public UnityEvent taskCompleteEvent;
 
     public List<ObjectiveBoolSO> objectives;
+    
+    [Header("Game Action")]
+    public GameAction channel;
 
     private bool eventFired;
 
@@ -37,5 +40,15 @@ public class ObjectiveSO : ScriptableObject
     public void Reset()
     {
         eventFired = false;
+    }
+    
+    public void OnBeforeSerialize()
+    {
+        
+    }
+
+    public void OnAfterDeserialize()
+    {
+        channel.action += Reset;
     }
 }

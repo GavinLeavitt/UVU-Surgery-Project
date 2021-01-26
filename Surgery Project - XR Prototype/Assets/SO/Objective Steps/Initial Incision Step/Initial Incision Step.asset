@@ -29,3 +29,4 @@ MonoBehaviour:
         m_CallState: 2
   objectives:
   - {fileID: 11400000, guid: 172a4e83f41766e44b0d05aa0fb463d2, type: 2}
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

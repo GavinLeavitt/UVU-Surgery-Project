@@ -32,3 +32,4 @@ MonoBehaviour:
   objectives:
   - {fileID: 11400000, guid: f819867bb91bad242a92c4f1f8c26798, type: 2}
   - {fileID: 11400000, guid: aeb12c8784c85fd4fb746be6cf2923de, type: 2}
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Guide Pin Drilled
   m_EditorClassIdentifier: 
   objective: 0
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

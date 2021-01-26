@@ -20,3 +20,4 @@ MonoBehaviour:
   objectives:
   - {fileID: 11400000, guid: f220f597a2b212742be51782ff389e61, type: 2}
   - {fileID: 11400000, guid: 91aca3f4c8f997c46885553c1e8817a4, type: 2}
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

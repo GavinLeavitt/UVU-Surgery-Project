@@ -15,9 +15,7 @@
           </e>
           <e p="GameActionHandler.cs" t="Include" />
           <e p="IncisionBehavior.cs" t="Include" />
-          <e p="LensShiftAxis.cs" t="Include" />
           <e p="OnTriggerEvents.cs" t="Include" />
-          <e p="OverrideClippingPlane.cs" t="Include" />
           <e p="SO Bases" t="Include">
             <e p="GameAction.cs" t="Include" />
             <e p="ObjectiveBoolSO.cs" t="Include" />
