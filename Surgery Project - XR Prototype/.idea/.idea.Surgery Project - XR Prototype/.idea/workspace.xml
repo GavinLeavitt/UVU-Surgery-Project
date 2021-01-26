@@ -12,17 +12,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MainMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8AB387C8-6A21-4E26-B782-3F0B31F9D113/d6/91ed49d8/0200000Fpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8AB387C8-6A21-4E26-B782-3F0B31F9D113/d6/91ed49d8/0200000Fpdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,11 +37,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
       </list>
     </option>
   </component>
@@ -129,10 +133,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2294" y="-179" key="RiderGenerateDialog" timestamp="1611687255784">
+    <state x="2294" y="-179" key="RiderGenerateDialog" timestamp="1611702901843">
       <screen x="1920" y="-840" width="1080" height="1920" />
     </state>
-    <state x="2294" y="-179" key="RiderGenerateDialog/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611687255784" />
+    <state x="2294" y="-179" key="RiderGenerateDialog/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611702901843" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

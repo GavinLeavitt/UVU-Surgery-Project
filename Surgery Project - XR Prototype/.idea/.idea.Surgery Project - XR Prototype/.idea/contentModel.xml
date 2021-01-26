@@ -17,7 +17,9 @@
           <e p="IncisionBehavior.cs" t="Include" />
           <e p="OnTriggerEvents.cs" t="Include" />
           <e p="ReportingGrabInteractable.cs" t="Include" />
+          <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="SO Bases" t="Include">
+            <e p="ControllerStatusSO.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="ObjectiveBoolSO.cs" t="Include" />
             <e p="ObjectiveSO.cs" t="Include" />

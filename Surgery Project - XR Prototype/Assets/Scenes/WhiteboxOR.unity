@@ -1997,6 +1997,8 @@ GameObject:
   - component: {fileID: 697860217}
   - component: {fileID: 697860216}
   - component: {fileID: 697860215}
+  - component: {fileID: 697860219}
+  - component: {fileID: 697860220}
   - component: {fileID: 697860218}
   m_Layer: 0
   m_Name: Cannulated Drill
@@ -2014,7 +2016,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 697860214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c8db273be0189b46b60f6fb6f5b88e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
@@ -2083,6 +2085,64 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+  currentlyGrabbed: 0
+  controller: 0
+  rightOnSelectEnteredEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27, type: 2}
+        m_MethodName: SetRightControllerBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  rightOnSelectExitedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27, type: 2}
+        m_MethodName: SetRightControllerBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  leftOnSelectEnteredEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27, type: 2}
+        m_MethodName: SetLeftControllerBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  leftOnSelectExitedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27, type: 2}
+        m_MethodName: SetLeftControllerBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &697860216
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2154,9 +2214,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 697860216}
-        m_MethodName: set_isKinematic
-        m_Mode: 6
+      - m_Target: {fileID: 697860219}
+        m_MethodName: FreezeAll
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2187,6 +2247,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &697860219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697860214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816e56444dcdbb24da1290cb858782b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &697860220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697860214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac6c4a6f8e4bd945b0bb40b44bf836d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerStatusObj: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27,
+    type: 2}
+  amplitude: 0.5
+  duration: 0.1
+  controllerNode: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
