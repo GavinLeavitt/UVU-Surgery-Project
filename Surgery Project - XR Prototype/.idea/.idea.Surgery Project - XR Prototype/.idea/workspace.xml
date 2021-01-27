@@ -12,10 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MainMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8AB387C8-6A21-4E26-B782-3F0B31F9D113/d6/91ed49d8/0200000Fpdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,10 +42,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
       </list>
     </option>
   </component>

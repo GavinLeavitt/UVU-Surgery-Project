@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Tibial Guide Pin Drilled Step
   m_EditorClassIdentifier: 
-  text: With the drill assembled, it's time to move it into position by inserting
-    the guide pin into the Drill Sleeve thats attached to the Caliper.
+  text: With the drill now in place, press and hold the main trigger on your controller
+    to drill the guide pin into place.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls: []
   objectives:
-  - {fileID: 11400000, guid: f220f597a2b212742be51782ff389e61, type: 2}
   - {fileID: 11400000, guid: 91aca3f4c8f997c46885553c1e8817a4, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

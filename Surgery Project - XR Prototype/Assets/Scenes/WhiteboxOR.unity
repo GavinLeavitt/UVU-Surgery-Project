@@ -587,6 +587,7 @@ GameObject:
   - component: {fileID: 180843164}
   - component: {fileID: 180843166}
   - component: {fileID: 180843165}
+  - component: {fileID: 180843167}
   m_Layer: 17
   m_Name: Guide Pin
   m_TagString: Untagged
@@ -705,6 +706,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &180843167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180843163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87df623e5582b54789e14ffec9fa907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  channel: {fileID: 11400000, guid: b18f0ee95bc40aa459bfc56935df8e1c, type: 2}
 --- !u!1 &226736343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,6 +2014,8 @@ GameObject:
   - component: {fileID: 697860219}
   - component: {fileID: 697860220}
   - component: {fileID: 697860218}
+  - component: {fileID: 697860222}
+  - component: {fileID: 697860221}
   m_Layer: 0
   m_Name: Cannulated Drill
   m_TagString: Untagged
@@ -2276,6 +2292,61 @@ MonoBehaviour:
   amplitude: 0.5
   duration: 0.1
   controllerNode: 0
+--- !u!114 &697860221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697860214}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5123f03b3ab182f43a204c5f1271cb6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guidePinInserted: 0
+  controllerStatusObj: {fileID: 11400000, guid: 62b8df38061687d458889e71d186ac27,
+    type: 2}
+  controllerNode: 0
+  action: {fileID: 11400000, guid: b18f0ee95bc40aa459bfc56935df8e1c, type: 2}
+--- !u!114 &697860222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697860214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: f97967da1449ffb4488f354a65a3da6d, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 697860221}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 697860221}
+        m_MethodName: UpdateBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3757,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 26e2dd8798bb2bf40b5f4c55ee651a18, type: 2}
+        m_MethodName: CompletionCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 2c9b378cd32670343bad29cad5e8047f, type: 2}
         m_MethodName: CompletionCheck
         m_Mode: 1
         m_Arguments:
