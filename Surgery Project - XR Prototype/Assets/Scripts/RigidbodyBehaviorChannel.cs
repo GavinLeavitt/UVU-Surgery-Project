@@ -15,6 +15,6 @@ public class RigidbodyBehaviorChannel : MonoBehaviour
     private void MoveForward()
     {
         rb.isKinematic = true;
-        rb.MovePosition(transform.position + (new Vector3(0, 0, 1) * (Time.deltaTime * 5)));
+        rb.MovePosition(transform.position + (transform.forward * (Time.deltaTime * 0.1f)));
     }
 }
