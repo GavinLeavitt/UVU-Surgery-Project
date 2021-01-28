@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Brandon\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Brandon\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Surgery Project - XR Prototype.-2122745938.00" t="ExcludeRecursive" />
+    <e p="F:\Spring 2021\UVU-Surgery-Project\Surgery Project - XR Prototype" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CannulatedDrill.cs" t="Include" />
+          <e p="ConfigurableJointBehavior.cs" t="Include" />
+          <e p="ControllerVibration.cs" t="Include" />
+          <e p="Event Behaviours" t="Include">
+            <e p="StartEventBehavior.cs" t="Include" />
+            <e p="UpdateEventBehaviour.cs" t="Include" />
+          </e>
+          <e p="GameActionHandler.cs" t="Include" />
+          <e p="IncisionBehavior.cs" t="Include" />
+          <e p="OnTriggerEvents.cs" t="Include" />
+          <e p="ReportingGrabInteractable.cs" t="Include" />
+          <e p="RigidbodyBehavior.cs" t="Include" />
+          <e p="RigidbodyBehaviorChannel.cs" t="Include" />
+          <e p="SO Bases" t="Include">
+            <e p="ControllerStatusSO.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
+            <e p="ObjectiveBoolSO.cs" t="Include" />
+            <e p="ObjectiveSO.cs" t="Include" />
+            <e p="UnityEventDebugger.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+          </e>
+          <e p="TMPTextBehavior.cs" t="Include" />
+          <e p="XRGrabRigidbodyBehavior.cs" t="Include" />
+        </e>
         <e p="UI" t="Include">
           <e p="Scripts" t="Include">
             <e p="MainMenuUI.cs" t="Include" />
@@ -44,13 +71,12 @@
             </e>
           </e>
         </e>
+        <e p="VRSimInputs.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Surgery Project - XR Prototype.sln" t="IncludeFlat" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Surgery Project - XR Prototype.-5601661.00" t="ExcludeRecursive" />
   </component>
 </project>
