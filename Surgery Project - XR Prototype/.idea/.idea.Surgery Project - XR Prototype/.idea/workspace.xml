@@ -26,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -48,6 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehavior.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +118,7 @@
       <workItem from="1611686940320" duration="1906000" />
       <workItem from="1611694501417" duration="2380000" />
       <workItem from="1611775863938" duration="2214000" />
+      <workItem from="1611792748077" duration="3525000" />
     </task>
     <servers />
   </component>
@@ -142,6 +147,10 @@
       <screen x="1920" y="-840" width="1080" height="1920" />
     </state>
     <state x="2294" y="-179" key="RiderGenerateDialog/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611702901843" />
+    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup" timestamp="1611800268788">
+      <screen x="1920" y="-840" width="1080" height="1920" />
+    </state>
+    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611800268788" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

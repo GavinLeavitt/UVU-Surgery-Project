@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CannulatedDrill.cs" t="Include" />
+          <e p="ConfigurableJointBehavior.cs" t="Include" />
           <e p="ControllerVibration.cs" t="Include" />
           <e p="Event Behaviours" t="Include">
             <e p="StartEventBehavior.cs" t="Include" />
