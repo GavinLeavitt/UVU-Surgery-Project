@@ -14,4 +14,9 @@ public class RigidbodyBehavior : MonoBehaviour
     {
         rb.constraints = RigidbodyConstraints.FreezeAll;
     }
+
+    public void UnFreezeAll()
+    {
+        rb.constraints = RigidbodyConstraints.None;
+    }
 }

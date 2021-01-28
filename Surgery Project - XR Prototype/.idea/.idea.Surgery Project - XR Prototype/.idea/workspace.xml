@@ -43,11 +43,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +113,7 @@
       <workItem from="1611624743601" duration="4575000" />
       <workItem from="1611686940320" duration="1906000" />
       <workItem from="1611694501417" duration="2380000" />
+      <workItem from="1611775863938" duration="2214000" />
     </task>
     <servers />
   </component>

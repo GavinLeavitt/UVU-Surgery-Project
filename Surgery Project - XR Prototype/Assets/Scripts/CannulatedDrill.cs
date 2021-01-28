@@ -19,7 +19,7 @@ public class CannulatedDrill : MonoBehaviour
     {
         if (controller.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1 && guidePinInserted)
         {
-            action.action.Invoke();
+            action.action?.Invoke();
         }
     }
     

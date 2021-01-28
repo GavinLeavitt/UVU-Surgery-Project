@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class RigidbodyBehaviorChannel : MonoBehaviour
@@ -11,7 +12,12 @@ public class RigidbodyBehaviorChannel : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         channel.action += MoveForward;
     }
-    
+
+    private void OnDisable()
+    {
+        channel.action -= MoveForward;
+    }
+
     private void MoveForward()
     {
         rb.isKinematic = true;
