@@ -21,6 +21,9 @@ public class ConfigurableJointBehavior : MonoBehaviour
 
     public void OnlyLocalZMovement()
     {
-        
+        configJointObj.xMotion = ConfigurableJointMotion.Locked;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Limited;
+        Debug.Log("howdy");
     }
 }
