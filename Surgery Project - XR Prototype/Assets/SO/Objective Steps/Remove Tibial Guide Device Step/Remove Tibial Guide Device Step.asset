@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Cannulated Drill Assemble Tunnel Bit Step
+  m_Name: Remove Tibial Guide Device Step
   m_EditorClassIdentifier: 
-  text: With the Tibial Guide Pin in place, it's time to attach the Drill Bit. The
-    bit can be found on the table.
+  text: With the Guide Pin in place, now you must remove the Caliper
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c136261a53c231e4db6795ce77afffad, type: 2}
+      - m_Target: {fileID: 11400000, guid: fb50a55970b053942924da3e8226972c, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -28,6 +27,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 6328c0b88ae399546bd7a745b7b4f60c, type: 2}
+        m_MethodName: EventDebug
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Caliper removal step complete
+          m_BoolArgument: 0
+        m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: df399f1ec756cc14ab9aabfe6e0bf44d, type: 2}
+  - {fileID: 11400000, guid: e98a2a2aa7d9ee44c8749070b8c619c3, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(ConfigurableJoint))]
 public class ConfigurableJointBehavior : MonoBehaviour
@@ -8,7 +9,7 @@ public class ConfigurableJointBehavior : MonoBehaviour
     [Header("Game Action")]
     public GameAction rbChannel; // Used to find a connecting Rigidbody dynamically
 
-    private void Start()
+    private void OnEnable()
     {
         configJointObj = GetComponent<ConfigurableJoint>();
         rbChannel.rbAction += AssignConnectingRB;
@@ -19,11 +20,13 @@ public class ConfigurableJointBehavior : MonoBehaviour
         configJointObj.connectedBody = rb;
     }
 
-    public void OnlyLocalZMovement()
+    public void OnlyLocalXMovement()
     {
-        configJointObj.xMotion = ConfigurableJointMotion.Locked;
+        configJointObj.xMotion = ConfigurableJointMotion.Limited;
         configJointObj.yMotion = ConfigurableJointMotion.Locked;
-        configJointObj.zMotion = ConfigurableJointMotion.Limited;
-        Debug.Log("howdy");
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
     }
 }

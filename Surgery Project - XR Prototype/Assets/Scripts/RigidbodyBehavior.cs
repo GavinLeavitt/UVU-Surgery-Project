@@ -19,4 +19,9 @@ public class RigidbodyBehavior : MonoBehaviour
     {
         rb.constraints = RigidbodyConstraints.None;
     }
+
+    public void FreezeAllButXPosition()
+    {
+        rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+    }
 }

@@ -43,15 +43,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/AwakeEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerCallOnceEvent.cs" />
       </list>
     </option>
   </component>
@@ -119,6 +121,9 @@
       <workItem from="1611694501417" duration="2380000" />
       <workItem from="1611775863938" duration="2214000" />
       <workItem from="1611792748077" duration="4790000" />
+      <workItem from="1611884691056" duration="2290000" />
+      <workItem from="1611945539548" duration="856000" />
+      <workItem from="1611959729326" duration="3704000" />
     </task>
     <servers />
   </component>

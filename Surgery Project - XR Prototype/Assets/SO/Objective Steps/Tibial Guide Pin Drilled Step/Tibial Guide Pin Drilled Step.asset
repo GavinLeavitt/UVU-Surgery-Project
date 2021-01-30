@@ -17,7 +17,7 @@ MonoBehaviour:
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: fb50a55970b053942924da3e8226972c, type: 2}
+      - m_Target: {fileID: 11400000, guid: 9f8652a6cccafb04a98b20e776b13596, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:

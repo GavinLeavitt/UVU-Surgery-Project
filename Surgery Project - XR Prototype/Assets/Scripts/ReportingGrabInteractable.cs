@@ -5,10 +5,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ReportingGrabInteractable : XRGrabInteractable
 {
-    public bool currentlyGrabbed;
+    public bool currentlyGrabbed, noGravityOnGrab;
     public XRNode controller;
     public InputDevice controllerDevice;
     public UnityEvent rightOnSelectEnteredEvent, rightOnSelectExitedEvent, leftOnSelectEnteredEvent, leftOnSelectExitedEvent;
+    private Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     protected override void OnSelectEntered(XRBaseInteractor interactor)
     {
@@ -40,5 +46,15 @@ public class ReportingGrabInteractable : XRGrabInteractable
         {
             leftOnSelectExitedEvent.Invoke();
         }
+        
+        if (noGravityOnGrab)
+        {
+            rb.useGravity = false;
+        }
+    }
+
+    public void ChangeBool(bool value)
+    {
+        noGravityOnGrab = value;
     }
 }
