@@ -6,6 +6,7 @@ public class GameAction : ScriptableObject
 {
     public UnityAction action;
     public UnityAction<Rigidbody> rbAction;
+    public UnityAction<Transform> transformAction;
 
     public void Raise()
     {
@@ -15,5 +16,10 @@ public class GameAction : ScriptableObject
     public void RaiseRB(Rigidbody rb)
     {
         rbAction?.Invoke(rb);
+    }
+
+    public void RaiseTransform(Transform trans)
+    {
+        transformAction?.Invoke(trans);
     }
 }

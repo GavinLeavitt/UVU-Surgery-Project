@@ -1,8 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(ConfigurableJoint))]
-public class ConfigurableJointBehavior : MonoBehaviour
+public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
 {
     private ConfigurableJoint configJointObj;
     
@@ -18,6 +17,16 @@ public class ConfigurableJointBehavior : MonoBehaviour
     private void AssignConnectingRB(Rigidbody rb)
     {
         configJointObj.connectedBody = rb;
+    }
+
+    public void LimitAllMovement()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Limited;
+        configJointObj.yMotion = ConfigurableJointMotion.Limited;
+        configJointObj.zMotion = ConfigurableJointMotion.Limited;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Limited;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Limited;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Limited;
     }
 
     public void OnlyLocalXMovement()

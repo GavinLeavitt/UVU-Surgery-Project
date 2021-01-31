@@ -8,8 +8,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="BoolCheckEvent.cs" t="Include" />
+          <e p="CameraBehavior.cs" t="Include" />
           <e p="CannulatedDrill.cs" t="Include" />
-          <e p="ConfigurableJointBehavior.cs" t="Include" />
+          <e p="ConfigurableJointBehaviorRBChannel.cs" t="Include" />
           <e p="ControllerVibration.cs" t="Include" />
           <e p="Event Behaviours" t="Include">
             <e p="AwakeEventBehavior.cs" t="Include" />
@@ -24,6 +26,7 @@
           <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="RigidbodyBehaviorChannel.cs" t="Include" />
           <e p="SO Bases" t="Include">
+            <e p="BoolSO.cs" t="Include" />
             <e p="ControllerStatusSO.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="ObjectiveBoolSO.cs" t="Include" />
