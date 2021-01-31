@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/CameraOffset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,11 +60,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBTransformChannels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/BoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolCheckEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForceDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropObjXRGrabInteractable.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +136,7 @@
       <workItem from="1611884691056" duration="2290000" />
       <workItem from="1611945539548" duration="856000" />
       <workItem from="1611959729326" duration="3704000" />
-      <workItem from="1612046755646" duration="3965000" />
+      <workItem from="1612046755646" duration="7259000" />
     </task>
     <servers />
   </component>
