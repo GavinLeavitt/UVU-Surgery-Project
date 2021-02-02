@@ -65,11 +65,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBTransformChannels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/BoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolCheckEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForceDrop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropObjXRGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +143,7 @@
       <workItem from="1612046755646" duration="7259000" />
       <workItem from="1612233848991" duration="536000" />
       <workItem from="1612234456511" duration="1353000" />
-      <workItem from="1612300322791" duration="1019000" />
+      <workItem from="1612300322791" duration="3168000" />
     </task>
     <servers />
   </component>
