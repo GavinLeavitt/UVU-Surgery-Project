@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0931eeea9ab2dad4bb739b87f12638d8, type: 3}
-  m_Name: CameraRotation
+  m_Name: Caliper Destination V3
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 0, z: 0}
+  value: {x: 2.7102, y: 0.8991, z: -5.432}

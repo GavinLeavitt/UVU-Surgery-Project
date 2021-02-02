@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e53ce9191f901d744b3c1c64ccb793aa, type: 3}
-  m_Name: Arthro Hit Trigger And Let Go
+  m_Script: {fileID: 11500000, guid: 0931eeea9ab2dad4bb739b87f12638d8, type: 3}
+  m_Name: Tibial Drill Destination V3
   m_EditorClassIdentifier: 
-  boolSOObj: {fileID: 0}
-  boolTrueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  boolFalseEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  value: {x: 2.7563, y: 0.6794, z: -5.5717}
