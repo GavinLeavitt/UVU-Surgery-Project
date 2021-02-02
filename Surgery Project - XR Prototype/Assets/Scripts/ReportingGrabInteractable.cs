@@ -5,8 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ReportingGrabInteractable : XRGrabInteractable
 {
-    public bool currentlyGrabbed, noGravityOnGrab, kinematicOnDrop;
-    
+    public bool kinematicOnDrop;
     public XRNode controller;
     public InputDevice controllerDevice;
     public UnityEvent rightOnSelectEnteredEvent, rightOnSelectExitedEvent, leftOnSelectEnteredEvent, leftOnSelectExitedEvent;
@@ -20,7 +19,6 @@ public class ReportingGrabInteractable : XRGrabInteractable
     protected override void OnSelectEntered(XRBaseInteractor interactor)
     {
         base.OnSelectEntered(interactor);
-        currentlyGrabbed = true;
         controller = selectingInteractor.gameObject.GetComponent<XRController>().controllerNode;
         controllerDevice = InputDevices.GetDeviceAtXRNode(controller);
 
@@ -37,7 +35,6 @@ public class ReportingGrabInteractable : XRGrabInteractable
     protected override void OnSelectExited(XRBaseInteractor interactor)
     {
         base.OnSelectExited(interactor);
-        currentlyGrabbed = false;
 
         if (controller == XRNode.RightHand)
         {
@@ -47,18 +44,8 @@ public class ReportingGrabInteractable : XRGrabInteractable
         {
             leftOnSelectExitedEvent.Invoke();
         }
-        
-        if (noGravityOnGrab)
-        {
-            rb.useGravity = false;
-        }
 
         rb.isKinematic = kinematicOnDrop;
-    }
-
-    public void ChangeGravityBool(bool value)
-    {
-        noGravityOnGrab = value;
     }
 
     public void ChangeKinematicBool(bool value)

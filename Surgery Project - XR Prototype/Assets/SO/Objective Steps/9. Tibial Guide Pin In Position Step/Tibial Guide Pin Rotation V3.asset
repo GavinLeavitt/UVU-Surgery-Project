@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0931eeea9ab2dad4bb739b87f12638d8, type: 3}
   m_Name: Tibial Guide Pin Rotation V3
   m_EditorClassIdentifier: 
-  value: {x: -142.218, y: 119.595, z: 180}
+  value: {x: -40.243, y: -30.576, z: 171.915}

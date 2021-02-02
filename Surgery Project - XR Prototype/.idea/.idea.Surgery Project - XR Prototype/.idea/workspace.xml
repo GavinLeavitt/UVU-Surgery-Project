@@ -18,10 +18,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/BoolSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolCheckEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRManagerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,7 +53,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
@@ -70,6 +69,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DropObjXRGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +144,7 @@
       <workItem from="1612046755646" duration="7259000" />
       <workItem from="1612233848991" duration="536000" />
       <workItem from="1612234456511" duration="1353000" />
-      <workItem from="1612300322791" duration="3168000" />
+      <workItem from="1612300322791" duration="6315000" />
     </task>
     <servers />
   </component>
