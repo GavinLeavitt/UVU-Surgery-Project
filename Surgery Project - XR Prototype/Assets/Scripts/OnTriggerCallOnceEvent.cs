@@ -17,10 +17,10 @@ public class OnTriggerCallOnceEvent : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (callCount <= 0)
+        if (callCount > 0)
         {
             onTriggerExitEvent.Invoke();
-            callCount++;
+            callCount--;
         }
     }
 }
