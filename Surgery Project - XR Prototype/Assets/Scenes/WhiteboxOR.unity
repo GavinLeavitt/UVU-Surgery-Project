@@ -9182,7 +9182,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.08
+    limit: 0.1
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -9204,7 +9204,7 @@ ConfigurableJoint:
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
-    limit: 50.06226
+    limit: 177
     bounciness: 0
     contactDistance: 0
   m_TargetPosition: {x: 0, y: 0, z: 0}
@@ -9269,28 +9269,6 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 29f4414979e1de54baac4330063f7e3d, type: 2}
-        m_MethodName: MoveToValue
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1601612070}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 78a8cf90067c46c4a892d37b3e43c27f, type: 2}
-        m_MethodName: RotateToValue
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1601612070}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1601612074}
         m_MethodName: LimitAllMovement
         m_Mode: 1
