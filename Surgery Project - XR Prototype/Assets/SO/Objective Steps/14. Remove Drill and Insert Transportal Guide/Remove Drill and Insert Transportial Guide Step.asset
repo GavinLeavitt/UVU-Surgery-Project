@@ -10,24 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Drill Tibial Tunnel Step
+  m_Name: Remove Drill and Insert Transportial Guide Step
   m_EditorClassIdentifier: 
-  text: While activating the drill, push the drill forward along the Guide Pin to
-    drill the Tibial Tunnel.
+  text: With the Tibial Tunnel being drilled, remove the drill from the tunnel. Grab
+    the Transportial Guide from the table and place it in position using the right
+    incision.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 186e96b87b49a4743ac24a86124a7a2f, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 6328c0b88ae399546bd7a745b7b4f60c, type: 2}
+        m_MethodName: EventDebug
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 'REMOVE ME AFTER YOU MAKE THE NEXT STEP : Remove Drill
+            and Insert Transportial Guide Step'
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 82ebf38292c8ba94a8a6235c350f0e41, type: 2}
+  - {fileID: 11400000, guid: e2b57b54a3e5a1f418e63fcff8ed6317, type: 2}
+  - {fileID: 11400000, guid: bc4a7b1ebe0c16342bb3145c800deb8b, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}
