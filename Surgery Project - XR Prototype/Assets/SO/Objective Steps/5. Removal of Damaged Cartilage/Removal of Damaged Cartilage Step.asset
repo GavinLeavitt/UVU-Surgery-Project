@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Cannulated Drill Assemble Tunnel Bit Step
+  m_Name: Removal of Damaged Cartilage Step
   m_EditorClassIdentifier: 
-  text: 'With the Tibial Guide Pin in place, it''s time to swap drill bits. The bit
-    can be found on the table. '
+  text: Glide the tip of the Shaver over the damaged cartilage marked in red.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c136261a53c231e4db6795ce77afffad, type: 2}
+      - m_Target: {fileID: 11400000, guid: 2c25d73656465164b9136555ebf73ffa, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -29,5 +28,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: df399f1ec756cc14ab9aabfe6e0bf44d, type: 2}
+  - {fileID: 11400000, guid: 8e15b68581deb3049a428b70ff822835, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

@@ -34,10 +34,10 @@ TagManager:
   - Drill Bit 02 Destination
   - Arthro Pivot Location
   - Arthro Pivot
-  - 
+  - Cartilage
   - Shaver Socket
   - Shaver Tip
-  - 
+  - Shaver Tip Collider
   m_SortingLayers:
   - name: Default
     uniqueID: 0

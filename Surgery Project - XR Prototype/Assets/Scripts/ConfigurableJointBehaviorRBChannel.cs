@@ -48,4 +48,14 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
         configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
         configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
     }
+
+    public void FreeAllMovement()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Free;
+        configJointObj.yMotion = ConfigurableJointMotion.Free;
+        configJointObj.zMotion = ConfigurableJointMotion.Free;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Free;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Free;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Free;
+    }
 }

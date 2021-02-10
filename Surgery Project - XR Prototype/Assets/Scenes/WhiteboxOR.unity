@@ -149,12 +149,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5079055}
-  m_LocalRotation: {x: -0.1282837, y: -0.11773242, z: -0.39214402, w: 0.9032749}
-  m_LocalPosition: {x: -0.0021, y: -0.05725, z: 0.00721}
-  m_LocalScale: {x: 0.0011733106, y: 0.0032402468, z: 0.0038632292}
+  m_LocalRotation: {x: -0.50945854, y: -0.29639024, z: -0.32346135, w: 0.7402551}
+  m_LocalPosition: {x: -0.01120506, y: -0.114518814, z: 0.0052625537}
+  m_LocalScale: {x: 0.0011733107, y: 0.003240247, z: 0.003863229}
   m_Children: []
-  m_Father: {fileID: 8063323045929526370}
-  m_RootOrder: 3
+  m_Father: {fileID: 5162043093015569713}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -18.910002, y: -6.8040004, z: -45.800003}
 --- !u!65 &5079057
 BoxCollider:
@@ -505,12 +505,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101474649}
-  m_LocalRotation: {x: -0.1282837, y: -0.11773242, z: -0.39214402, w: 0.9032749}
-  m_LocalPosition: {x: -0.0021, y: -0.05725, z: 0.00721}
-  m_LocalScale: {x: 0.0011733106, y: 0.0032402468, z: 0.0038632292}
+  m_LocalRotation: {x: -0.50945854, y: -0.29639024, z: -0.32346135, w: 0.7402551}
+  m_LocalPosition: {x: -0.01120506, y: -0.114518814, z: 0.0052625537}
+  m_LocalScale: {x: 0.0011733107, y: 0.003240247, z: 0.003863229}
   m_Children: []
-  m_Father: {fileID: 8063323045929526370}
-  m_RootOrder: 4
+  m_Father: {fileID: 5162043093015569713}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -18.910002, y: -6.8040004, z: -45.800003}
 --- !u!65 &101474651
 BoxCollider:
@@ -601,7 +601,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &103502950
 GameObject:
@@ -1141,7 +1141,7 @@ Transform:
   - {fileID: 537020340}
   - {fileID: 383701609}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 67.777, z: 0}
 --- !u!114 &180843165
 MonoBehaviour:
@@ -1426,8 +1426,9 @@ GameObject:
   - component: {fileID: 208870820}
   - component: {fileID: 208870819}
   - component: {fileID: 208870818}
-  m_Layer: 8
-  m_Name: Cube
+  - component: {fileID: 208870821}
+  m_Layer: 28
+  m_Name: Damaged Cartilage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1455,7 +1456,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208870816}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1507,6 +1508,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208870816}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &208870821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208870816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b753708f3dc7dfa49a9cfb278344ff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 8e15b68581deb3049a428b70ff822835, type: 2}
+        m_MethodName: SetBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b4362a7de91d25448bbb1911c7df736d, type: 2}
+        m_MethodName: CompletionCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 632242986}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 208870816}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &213292775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,7 +1581,7 @@ GameObject:
   - component: {fileID: 213292776}
   - component: {fileID: 213292778}
   - component: {fileID: 213292777}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2065,6 +2128,7 @@ GameObject:
   - component: {fileID: 268095678}
   - component: {fileID: 268095679}
   - component: {fileID: 268095680}
+  - component: {fileID: 268095681}
   m_Layer: 0
   m_Name: Shaver [GHOST]
   m_TagString: Untagged
@@ -2132,6 +2196,33 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Insertion
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &268095681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268095677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 2c25d73656465164b9136555ebf73ffa, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 268095679}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Removal
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &280700280
@@ -2437,6 +2528,50 @@ Transform:
   m_Father: {fileID: 180843164}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &398875755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 398875756}
+  - component: {fileID: 398875757}
+  m_Layer: 31
+  m_Name: Shaver Tip Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &398875756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398875755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1216, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1302519233}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &398875757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398875755}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.005, z: 0.005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &433991550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2605,7 @@ Transform:
   - {fileID: 303805197}
   - {fileID: 1934747629}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: -89.16601}
 --- !u!114 &433991552
 MonoBehaviour:
@@ -2787,14 +2922,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516347141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1196507, y: 0.87, z: -5.905}
+  m_LocalPosition: {x: 0.9932, y: 0.87, z: -5.8856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 468940239}
   - {fileID: 1302519233}
   - {fileID: 845207688}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &516347143
 MonoBehaviour:
@@ -3232,6 +3367,7 @@ GameObject:
   - component: {fileID: 617185843}
   - component: {fileID: 617185845}
   - component: {fileID: 617185846}
+  - component: {fileID: 617185847}
   - component: {fileID: 617185838}
   - component: {fileID: 617185839}
   - component: {fileID: 617185840}
@@ -3659,7 +3795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: 564bb7684ac5f56439ada5c4b454b4c6, type: 2}
+  gameActionObj: {fileID: 11400000, guid: 8f81b78c56ad7bf4fb1c4b5dac0404f3, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3667,9 +3803,122 @@ MonoBehaviour:
         m_MethodName: ReplaceText
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: b98ed74d1628309419fa82d1d933edb8,
+          m_ObjectArgument: {fileID: 11400000, guid: b4362a7de91d25448bbb1911c7df736d,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: ObjectiveSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &617185847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617185832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 2c25d73656465164b9136555ebf73ffa, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 617185836}
+        m_MethodName: ReplaceText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: b6a8314c0054ba64194a7522e2f24b5a,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ObjectiveSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &632242986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632242987}
+  - component: {fileID: 632242988}
+  - component: {fileID: 632242989}
+  m_Layer: 28
+  m_Name: Shaver Check Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &632242987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632242986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01545, y: -0.1115, z: 0.00208}
+  m_LocalScale: {x: 0.0076126345, y: 0.0026084133, z: 0.0033704818}
+  m_Children: []
+  m_Father: {fileID: 5162043093015569713}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &632242988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632242986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &632242989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632242986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b753708f3dc7dfa49a9cfb278344ff2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: defac26ee8e119e4cb5f1871f5123d41, type: 2}
+        m_MethodName: SetBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b6a8314c0054ba64194a7522e2f24b5a, type: 2}
+        m_MethodName: CompletionCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4101,7 +4350,7 @@ Transform:
   - {fileID: 761925860}
   - {fileID: 1715247864}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 27.009}
 --- !u!114 &697860218
 MonoBehaviour:
@@ -4774,12 +5023,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708909240}
-  m_LocalRotation: {x: -0.1964402, y: 0.21752945, z: 0.26667273, w: 0.91813827}
-  m_LocalPosition: {x: -0.01081, y: -0.05721, z: 0.00724}
-  m_LocalScale: {x: 0.0011733106, y: 0.0032402468, z: 0.0038632292}
+  m_LocalRotation: {x: -0.5837856, y: 0.2973094, z: 0.116155624, w: 0.74653167}
+  m_LocalPosition: {x: -0.019894559, y: -0.11427074, z: 0.004717134}
+  m_LocalScale: {x: 0.0011733104, y: 0.0032402463, z: 0.003863228}
   m_Children: []
-  m_Father: {fileID: 8063323045929526370}
-  m_RootOrder: 2
+  m_Father: {fileID: 5162043093015569713}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -28.473001, y: 19.586, z: 27.377}
 --- !u!65 &708909242
 BoxCollider:
@@ -5509,115 +5758,8 @@ Transform:
   - {fileID: 280700281}
   - {fileID: 2022178491}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
---- !u!1 &827186352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 827186353}
-  - component: {fileID: 827186355}
-  - component: {fileID: 827186354}
-  m_Layer: 0
-  m_Name: Arthro Camera HUD
-  m_TagString: Arthro Camera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &827186353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827186352}
-  m_LocalRotation: {x: -0, y: 0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 0.137, y: -0.0007, z: 0.00032}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1765402369}
-  m_Father: {fileID: 1601612071}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
---- !u!114 &827186354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827186352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 1
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
---- !u!20 &827186355
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827186352}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 68.05538
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.01
-  far clip plane: 20
-  field of view: 40
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 268435456
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: e4073f0bc094de345b18cd85872f983d, type: 2}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1 &845207687
 GameObject:
   m_ObjectHideFlags: 0
@@ -5841,7 +5983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879026985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.131, y: 0, z: 0}
+  m_LocalPosition: {x: 0.1413, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1460853946}
@@ -6280,7 +6422,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 268435255
+    m_Bits: 268435253
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -7411,6 +7553,7 @@ Transform:
   - {fileID: 1696775816}
   - {fileID: 1697075150}
   - {fileID: 596425493}
+  - {fileID: 398875756}
   m_Father: {fileID: 516347142}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7596,7 +7739,8 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.70710707, z: -0, w: 0.70710653}
   m_LocalPosition: {x: 0.13698, y: -0.0007, z: 0.00032}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1765402369}
   m_Father: {fileID: 1601612071}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
@@ -7616,8 +7760,7 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras:
-  - {fileID: 827186355}
+  m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
@@ -7935,7 +8078,7 @@ Transform:
   - {fileID: 150980215}
   - {fileID: 999317584}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1389737143
 MonoBehaviour:
@@ -8471,6 +8614,7 @@ GameObject:
   - component: {fileID: 1472773775}
   - component: {fileID: 1472773774}
   - component: {fileID: 1472773776}
+  - component: {fileID: 1472773777}
   m_Layer: 0
   m_Name: Shaver
   m_TagString: Untagged
@@ -8627,7 +8771,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.1
+    limit: 0.04
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -8687,7 +8831,7 @@ ConfigurableJoint:
     positionSpring: 0
     positionDamper: 0
     maximumForce: 3.4028233e+38
-  m_ProjectionMode: 0
+  m_ProjectionMode: 1
   m_ProjectionDistance: 0.1
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
@@ -8757,6 +8901,66 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &1472773777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472773770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 2c25d73656465164b9136555ebf73ffa, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1472773774}
+        m_MethodName: FreeAllMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1472773772}
+        m_MethodName: set_smoothPosition
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1472773772}
+        m_MethodName: set_smoothRotation
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1472773772}
+        m_MethodName: ChangeKinematicBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1479725826
 GameObject:
@@ -9450,7 +9654,6 @@ Transform:
   - {fileID: 1165628711}
   - {fileID: 2047172299}
   - {fileID: 1346765361}
-  - {fileID: 827186353}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9585,8 +9788,8 @@ ConfigurableJoint:
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0.1325, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 1.2107317, y: 1.028, z: -6.2441}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -9599,7 +9802,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.1
+    limit: 0.03
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -9617,7 +9820,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_AngularYLimit:
-    limit: 90
+    limit: 45
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
@@ -9659,11 +9862,11 @@ ConfigurableJoint:
     positionSpring: 0
     positionDamper: 0
     maximumForce: 3.4028233e+38
-  m_ProjectionMode: 0
+  m_ProjectionMode: 1
   m_ProjectionDistance: 0.1
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 1
+  m_SwapBodies: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
@@ -10179,7 +10382,7 @@ GameObject:
   - component: {fileID: 1765402372}
   - component: {fileID: 1765402371}
   - component: {fileID: 1765402370}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10194,16 +10397,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765402368}
   m_LocalRotation: {x: -0, y: -0.0000005662441, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.01}
+  m_LocalPosition: {x: 0, y: 0, z: 0.010019958}
   m_LocalScale: {x: 1.4824, y: 1.4824, z: 1.4824}
   m_Children:
   - {fileID: 213292776}
-  m_Father: {fileID: 827186353}
+  m_Father: {fileID: 1346765361}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.0075, y: 0.005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1765402370
@@ -10407,6 +10610,7 @@ GameObject:
   - component: {fileID: 1824480095}
   - component: {fileID: 1824480094}
   - component: {fileID: 1824480096}
+  - component: {fileID: 1824480097}
   m_Layer: 11
   m_Name: Trimmer Pivot Point Trigger
   m_TagString: Untagged
@@ -10421,13 +10625,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824480092}
-  m_LocalRotation: {x: -0.24130936, y: -0.16636619, z: -0.8754754, w: 0.38423297}
-  m_LocalPosition: {x: -0.01081, y: -0.05721, z: 0.00724}
-  m_LocalScale: {x: 0.0011733106, y: 0.0032402468, z: 0.0038632292}
+  m_LocalRotation: {x: -0.29731125, y: -0.5837882, z: -0.7465288, w: 0.11615568}
+  m_LocalPosition: {x: -0.019570312, y: -0.11328303, z: 0.004866533}
+  m_LocalScale: {x: 0.0011733107, y: 0.0032402475, z: 0.0017483222}
   m_Children: []
-  m_Father: {fileID: 8063323045929526370}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -28.473001, y: 19.586, z: -137.623}
+  m_Father: {fileID: 5162043093015569713}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -28.473001, y: 19.586, z: -152.623}
 --- !u!114 &1824480094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10519,6 +10723,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1824480097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824480092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 70453907d41e09b46aa3114856d2bc4d, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1824480092}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1856900981
 GameObject:
   m_ObjectHideFlags: 0
@@ -19049,7 +19280,12 @@ Transform:
   m_LocalRotation: {x: 0.44336414, y: 0.022283563, z: 0.023845673, w: 0.89574724}
   m_LocalPosition: {x: 0.0122, y: 0.0698, z: 0.0933}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 708909241}
+  - {fileID: 5079056}
+  - {fileID: 101474650}
+  - {fileID: 1824480093}
+  - {fileID: 632242987}
   m_Father: {fileID: 3306866179115935788}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 52.488003, y: 5.755, z: 5.8890004}
@@ -20668,10 +20904,6 @@ Transform:
   m_Children:
   - {fileID: 2877348653316621694}
   - {fileID: 2598663669776557726}
-  - {fileID: 708909241}
-  - {fileID: 5079056}
-  - {fileID: 101474650}
-  - {fileID: 1824480093}
   m_Father: {fileID: 80930353034946913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
