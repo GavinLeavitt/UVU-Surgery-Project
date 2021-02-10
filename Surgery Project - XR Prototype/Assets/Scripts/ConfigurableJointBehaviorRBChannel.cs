@@ -29,13 +29,13 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
         configJointObj.angularZMotion = ConfigurableJointMotion.Limited;
     }
 
-    public void AllLimitedZAngLocked()
+    public void OnlyLocalXMovementAndXRotation()
     {
         configJointObj.xMotion = ConfigurableJointMotion.Limited;
-        configJointObj.yMotion = ConfigurableJointMotion.Limited;
-        configJointObj.zMotion = ConfigurableJointMotion.Limited;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
         configJointObj.angularXMotion = ConfigurableJointMotion.Limited;
-        configJointObj.angularYMotion = ConfigurableJointMotion.Limited;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
         configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
     }
 

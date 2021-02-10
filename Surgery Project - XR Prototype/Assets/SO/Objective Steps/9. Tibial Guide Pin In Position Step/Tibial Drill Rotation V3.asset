@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0931eeea9ab2dad4bb739b87f12638d8, type: 3}
   m_Name: Tibial Drill Rotation V3
   m_EditorClassIdentifier: 
-  value: {x: -6.163, y: -125.82, z: 40.526}
+  value: {x: 0.458, y: -120.582, z: 40.072}
