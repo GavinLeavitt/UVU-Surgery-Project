@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Cannulated Drill Assemble Tunnel Bit Step
   m_EditorClassIdentifier: 
-  text: 'With the Tibial Guide Pin in place, it''s time to swap drill bits. The bit
-    can be found on the table. '
+  text: With the Tibial Guide Pin in place, it's time to swap drill bits. The bit
+    can be found on the table. Once assembled, position the drill at the bottom of
+    the guide pin.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

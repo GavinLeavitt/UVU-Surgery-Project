@@ -12,6 +12,8 @@
           <e p="CannulatedDrill.cs" t="Include" />
           <e p="ConfigurableJointBehaviorRBChannel.cs" t="Include" />
           <e p="ControllerVibration.cs" t="Include" />
+          <e p="DisableOnTrueSocketInteractor.cs" t="Include" />
+          <e p="EnabledOnTriggerEvent.cs" t="Include" />
           <e p="Event Behaviours" t="Include">
             <e p="AwakeEventBehavior.cs" t="Include" />
             <e p="StartEventBehavior.cs" t="Include" />
