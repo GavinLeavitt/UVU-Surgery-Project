@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/MainMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingXRController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +99,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -163,6 +166,7 @@
       <workItem from="1613030611789" duration="2406000" />
       <workItem from="1613078418893" duration="3066000" />
       <workItem from="1613095940270" duration="2108000" />
+      <workItem from="1613150436776" duration="1350000" />
     </task>
     <servers />
   </component>

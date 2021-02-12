@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Remove Drill and Insert Transportial Guide Step
+  m_Name: Position Drill Behind Transportial Guide Step
   m_EditorClassIdentifier: 
-  text: With the Tibial Tunnel being drilled, remove the drill from the tunnel. Grab
-    the Transportial Guide from the table and place it in position using the right
-    incision.
+  text: With the drill set up, move it directly behind the Transportal Guide while
+    threading the pin through the opening on the back side of the guide.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c9cf8fb3f532c714fabc2cb8b7281f69, type: 2}
+      - m_Target: {fileID: 11400000, guid: 46531ce70752ca94a81b911bda655092, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -30,6 +29,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: e2b57b54a3e5a1f418e63fcff8ed6317, type: 2}
-  - {fileID: 11400000, guid: bc4a7b1ebe0c16342bb3145c800deb8b, type: 2}
+  - {fileID: 11400000, guid: c66c8a3ab45503f4c8744245e0e57fee, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

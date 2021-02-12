@@ -21,6 +21,7 @@
           </e>
           <e p="GameActionHandler.cs" t="Include" />
           <e p="IncisionBehavior.cs" t="Include" />
+          <e p="InstanceObject.cs" t="Include" />
           <e p="KinematicDropGrabInteractable.cs" t="Include" />
           <e p="LookAtRotation.cs" t="Include" />
           <e p="MovementTypeChangeGrabInteractable.cs" t="Include" />
