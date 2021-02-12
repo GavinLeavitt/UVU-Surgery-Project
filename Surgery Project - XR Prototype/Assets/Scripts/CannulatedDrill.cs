@@ -23,7 +23,7 @@ public class CannulatedDrill : MonoBehaviour
         }
     }
     
-    private void UpdateGrabbingController()
+    public void UpdateGrabbingController()
     {
         if (controllerStatusObj.rightControllerGrabbing)
         {

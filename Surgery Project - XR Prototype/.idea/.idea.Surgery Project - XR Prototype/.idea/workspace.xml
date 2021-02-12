@@ -61,7 +61,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/AwakeEventBehavior.cs" />
@@ -86,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
       </list>
     </option>
   </component>
@@ -166,7 +166,7 @@
       <workItem from="1613030611789" duration="2406000" />
       <workItem from="1613078418893" duration="3066000" />
       <workItem from="1613095940270" duration="2108000" />
-      <workItem from="1613150436776" duration="1350000" />
+      <workItem from="1613150436776" duration="2615000" />
     </task>
     <servers />
   </component>

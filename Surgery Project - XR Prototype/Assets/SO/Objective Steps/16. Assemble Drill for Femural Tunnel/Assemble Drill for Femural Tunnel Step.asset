@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
+  m_Name: Assemble Drill for Femural Tunnel Step
+  m_EditorClassIdentifier: 
+  text: With the Femural Guide Pin in place, go back to the table and swap out your
+    drill bit for the Femural Tunnel Drill Bit.
+  taskCompleteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectives:
+  - {fileID: 11400000, guid: e6c8bed6cb461924f9ba760aeabb2483, type: 2}
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}
