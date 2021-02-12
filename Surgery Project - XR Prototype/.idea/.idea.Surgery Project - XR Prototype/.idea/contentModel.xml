@@ -22,8 +22,11 @@
           <e p="GameActionHandler.cs" t="Include" />
           <e p="IncisionBehavior.cs" t="Include" />
           <e p="KinematicDropGrabInteractable.cs" t="Include" />
+          <e p="LookAtRotation.cs" t="Include" />
+          <e p="MovementTypeChangeGrabInteractable.cs" t="Include" />
           <e p="OnTriggerCallOnceEvent.cs" t="Include" />
           <e p="OnTriggerEvents.cs" t="Include" />
+          <e p="ParentingDirectInteractor.cs" t="Include" />
           <e p="ReportingGrabInteractable.cs" t="Include" />
           <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="RigidbodyBehaviorChannel.cs" t="Include" />

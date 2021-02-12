@@ -491,6 +491,8 @@ GameObject:
   - component: {fileID: 101474651}
   - component: {fileID: 101474652}
   - component: {fileID: 101474653}
+  - component: {fileID: 101474655}
+  - component: {fileID: 101474654}
   m_Layer: 26
   m_Name: Arthro Pivot Point Trigger
   m_TagString: Untagged
@@ -601,8 +603,55 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!23 &101474654
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101474649}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &101474655
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101474649}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &103502950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226736344}
   - component: {fileID: 226736345}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3404,6 +3453,7 @@ GameObject:
   - component: {fileID: 617185844}
   - component: {fileID: 617185842}
   - component: {fileID: 617185848}
+  - component: {fileID: 617185849}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3890,6 +3940,34 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: fd617566d009d4c4db2b312cb2974493,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ObjectiveSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &617185849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617185832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd570c9e7e37e4c8c24e6a0955e7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 186e96b87b49a4743ac24a86124a7a2f, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 617185836}
+        m_MethodName: ReplaceText
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f281b87672611a540ad5f4b525bd7aea,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: ObjectiveSO, Assembly-CSharp
           m_IntArgument: 0
@@ -7063,6 +7141,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: ChangeMovementType
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1060772640
 GameObject:
   m_ObjectHideFlags: 0
@@ -10059,7 +10148,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601612070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
   m_LocalPosition: {x: 1.0782318, y: 1.028, z: -6.2441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10069,7 +10158,7 @@ Transform:
   - {fileID: 1346765361}
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
 --- !u!114 &1601612072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10117,16 +10206,16 @@ MonoBehaviour:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 2047172299}
-  m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_AttachEaseInTime: 0
+  m_MovementType: 2
   m_TrackPosition: 1
   m_SmoothPosition: 0
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
+  m_SmoothPositionAmount: 7.5
+  m_TightenPosition: 0
   m_TrackRotation: 1
   m_SmoothRotation: 0
-  m_SmoothRotationAmount: 5
-  m_TightenRotation: 0.5
+  m_SmoothRotationAmount: 3.5
+  m_TightenRotation: 0
   m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -10199,45 +10288,45 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601612070}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0.1325, y: 0, z: 0}
+  m_Anchor: {x: 0.1, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2107317, y: 1.028, z: -6.2441}
+  m_AutoConfigureConnectedAnchor: 0
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
   m_YMotion: 2
   m_ZMotion: 2
-  m_AngularXMotion: 2
-  m_AngularYMotion: 2
-  m_AngularZMotion: 2
+  m_AngularXMotion: 0
+  m_AngularYMotion: 1
+  m_AngularZMotion: 1
   m_LinearLimitSpring:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.03
+    limit: 0.05
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
     spring: 0
-    damper: 0
+    damper: 999999
   m_LowAngularXLimit:
     limit: 0
     bounciness: 0
     contactDistance: 0
   m_HighAngularXLimit:
-    limit: 177
+    limit: 0
     bounciness: 0
     contactDistance: 0
   m_AngularYZLimitSpring:
     spring: 0
-    damper: 0
+    damper: 99999
   m_AngularYLimit:
-    limit: 45
+    limit: 30
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
-    limit: 177
+    limit: 30
     bounciness: 0
     contactDistance: 0
   m_TargetPosition: {x: 0, y: 0, z: 0}
@@ -10246,7 +10335,7 @@ ConfigurableJoint:
     serializedVersion: 3
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 0
   m_YDrive:
     serializedVersion: 3
     positionSpring: 0
@@ -10275,7 +10364,7 @@ ConfigurableJoint:
     positionSpring: 0
     positionDamper: 0
     maximumForce: 3.4028233e+38
-  m_ProjectionMode: 1
+  m_ProjectionMode: 0
   m_ProjectionDistance: 0.1
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
@@ -10285,7 +10374,7 @@ ConfigurableJoint:
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_ConnectedMassScale: 5
 --- !u!114 &1601612076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10338,6 +10427,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1601612072}
         m_MethodName: ChangeKinematicBool
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1601612072}
+        m_MethodName: ChangeToVelocityTracking
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11017,7 +11117,7 @@ GameObject:
   - component: {fileID: 1796306790}
   - component: {fileID: 1796306792}
   - component: {fileID: 1796306791}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Initial Incision Scalpel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11089,7 +11189,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 860395220}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -11448,8 +11548,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1916533011}
   - component: {fileID: 1916533015}
-  - component: {fileID: 1916533012}
   - component: {fileID: 1916533013}
+  - component: {fileID: 1916533012}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -11669,8 +11769,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1960211546}
   - component: {fileID: 1960211550}
-  - component: {fileID: 1960211547}
   - component: {fileID: 1960211548}
+  - component: {fileID: 1960211547}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -11918,7 +12018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047172298}
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.0311, y: -0.0263, z: 0}
+  m_LocalPosition: {x: -0.0839, y: -0.0263, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1601612071}

@@ -52,4 +52,19 @@ public class ReportingGrabInteractable : XRGrabInteractable
     {
         kinematicOnDrop = value;
     }
+
+    public void ChangeToInstantMovement()
+    {
+        movementType = MovementType.Instantaneous;
+    }
+
+    public void ChangeToVelocityTracking()
+    {
+        movementType = MovementType.VelocityTracking;
+    }
+
+    public void ChangeToKinematicMovement()
+    {
+        movementType = MovementType.Kinematic;
+    }
 }
