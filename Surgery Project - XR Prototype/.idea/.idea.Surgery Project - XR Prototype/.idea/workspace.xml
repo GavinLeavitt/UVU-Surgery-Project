@@ -74,7 +74,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DropObjXRGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerCallOnceEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingXRController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +162,7 @@
       <workItem from="1612920309748" duration="2503000" />
       <workItem from="1613030611789" duration="2406000" />
       <workItem from="1613078418893" duration="3066000" />
-      <workItem from="1613095940270" duration="1366000" />
+      <workItem from="1613095940270" duration="2108000" />
     </task>
     <servers />
   </component>
