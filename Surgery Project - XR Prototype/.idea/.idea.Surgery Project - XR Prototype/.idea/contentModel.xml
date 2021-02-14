@@ -28,6 +28,7 @@
           <e p="OnTriggerCallOnceEvent.cs" t="Include" />
           <e p="OnTriggerEvents.cs" t="Include" />
           <e p="ParentingDirectInteractor.cs" t="Include" />
+          <e p="ParentObj.cs" t="Include" />
           <e p="ReportingGrabInteractable.cs" t="Include" />
           <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="RigidbodyBehaviorChannel.cs" t="Include" />

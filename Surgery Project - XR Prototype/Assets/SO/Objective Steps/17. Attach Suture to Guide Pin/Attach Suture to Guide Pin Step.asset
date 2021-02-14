@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Remove Femural Drill Step
+  m_Name: Attach Suture to Guide Pin Step
   m_EditorClassIdentifier: 
-  text: With the tunnel created, it's time to remove the drill. Do so by sliding
-    it off the guide pin.
+  text: It's now time to introduce the new tendon to the knee cavity. To do so we
+    must first pass a suture through the Femoral Tunnel while leaving one end to
+    pass through the Tibial Tunnel. Let's start by attaching a Suture to the end
+    of the Femoral Guide Pin.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0aab79dafd6537148bc593d7be7367f5, type: 2}
+      - m_Target: {fileID: 11400000, guid: 688ba24e25ac2384e92ce136ea07989e, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -29,5 +31,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 87c3514952135cb449353ebd41950c1b, type: 2}
+  - {fileID: 11400000, guid: 4d4007e9636361d468a04886b137af2c, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

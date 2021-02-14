@@ -4,6 +4,7 @@ using UnityEngine.Events;
 public class EnabledOnTriggerEvent : MonoBehaviour
 {
     private bool triggerEnabled;
+    private int callCount = 0;
 
     public UnityEvent onTriggerEntered, onTriggerExited;
     private Collider _collider;
@@ -22,7 +23,11 @@ public class EnabledOnTriggerEvent : MonoBehaviour
     {
         if (triggerEnabled)
         {
-            onTriggerEntered.Invoke();
+            if (callCount <= 0)
+            {
+                onTriggerEntered.Invoke();
+                callCount++;
+            }
         }
     }
 
@@ -30,7 +35,11 @@ public class EnabledOnTriggerEvent : MonoBehaviour
     {
         if (triggerEnabled)
         {
-            onTriggerExited.Invoke();
+            if (callCount > 0)
+            {
+                onTriggerExited.Invoke();
+                callCount--;
+            }
         }
     }
 }

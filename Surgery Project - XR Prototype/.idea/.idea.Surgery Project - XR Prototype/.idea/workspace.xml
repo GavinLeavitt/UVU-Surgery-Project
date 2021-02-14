@@ -76,7 +76,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerCallOnceEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrueSocketInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementTypeChangeGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtRotation.cs" />
@@ -86,6 +85,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParentObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
       </list>
     </option>
   </component>
@@ -166,7 +167,9 @@
       <workItem from="1613030611789" duration="2406000" />
       <workItem from="1613078418893" duration="3066000" />
       <workItem from="1613095940270" duration="2108000" />
-      <workItem from="1613150436776" duration="3243000" />
+      <workItem from="1613150436776" duration="3809000" />
+      <workItem from="1613260095364" duration="620000" />
+      <workItem from="1613262706403" duration="1357000" />
     </task>
     <servers />
   </component>
