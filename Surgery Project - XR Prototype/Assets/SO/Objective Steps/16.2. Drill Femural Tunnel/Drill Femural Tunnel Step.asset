@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Drill Femur Guide Pin Step
+  m_Name: Drill Femural Tunnel Step
   m_EditorClassIdentifier: 
-  text: With the drill in position, hold down the trigger to drill the guide pin
-    into place.
+  text: Now that you have the drill in position, hold down the trigger and push forward
+    with the drill in hand to create the Femural Tunnel.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 4da8980a486fd1a44a290a118f2bedf2, type: 2}
+      - m_Target: {fileID: 11400000, guid: 47e7de6196ecd7d4e832eb7499dc03ee, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -29,5 +29,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 2da5637d062b68649a3dcf843c788293, type: 2}
+  - {fileID: 11400000, guid: 70d9f308e2321eb489958032d91ab3f1, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}
