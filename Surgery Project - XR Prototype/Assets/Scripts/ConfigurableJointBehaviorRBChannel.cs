@@ -58,4 +58,33 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
         configJointObj.angularYMotion = ConfigurableJointMotion.Free;
         configJointObj.angularZMotion = ConfigurableJointMotion.Free;
     }
+
+    public void LockAllMovement()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Locked;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
+    }
+
+    public void OnlyLocalXMovementAndZRotation()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Limited;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Limited;
+    }
+
+    public void SetZAngularLimit(float limit)
+    {
+        SoftJointLimit jointLimit = new SoftJointLimit();
+        jointLimit.bounciness = configJointObj.angularZLimit.bounciness;
+        jointLimit.limit = limit;
+        jointLimit.contactDistance = configJointObj.angularZLimit.contactDistance;
+        configJointObj.angularZLimit = jointLimit;
+    }
 }

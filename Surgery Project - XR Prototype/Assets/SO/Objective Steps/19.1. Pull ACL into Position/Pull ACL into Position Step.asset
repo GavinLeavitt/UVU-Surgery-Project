@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Guide Pin Pulled Through Femoral Tunnel Step
+  m_Name: Pull ACL into Position Step
   m_EditorClassIdentifier: 
-  text: With the Chuck attached to the Guide Pin, all thats left is to pull it through
-    the femoral tunnel bringing the Suture with it.
+  text: With the Tendon attached to the end of your Suture, now you have to pull
+    it into the knee cavity through the Tibial Tunnel via the Chuck Handle. Pull
+    the Handle out to pull the Tendon into position.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: fbff34b6969e53d49a0d5372fcaa7639, type: 2}
+      - m_Target: {fileID: 11400000, guid: 85ea59fb0c663e146aa38165c059d8c9, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -29,5 +30,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 8247735acddf9204f929692145ce6596, type: 2}
+  - {fileID: 11400000, guid: bf8bdcdeef2281e4492883f8ec5985a5, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

@@ -10,24 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Guide Pin Pulled Through Femoral Tunnel Step
+  m_Name: Snip Guide Pin Sutures Step
   m_EditorClassIdentifier: 
-  text: With the Chuck attached to the Guide Pin, all thats left is to pull it through
-    the femoral tunnel bringing the Suture with it.
+  text: With the Tendon in place, its time to separate it from the guide pin by cutting
+    the sutures. Grab the Scissors on the table and snip the Suture attached to the
+    Femoral Guide Pin by pressing the trigger.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: fbff34b6969e53d49a0d5372fcaa7639, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 6328c0b88ae399546bd7a745b7b4f60c, type: 2}
+        m_MethodName: EventDebug
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 'REMOVE ME WHEN YOU DO NEXT STEP : Snip Guide Pin Sutures
+            Step'
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 8247735acddf9204f929692145ce6596, type: 2}
+  - {fileID: 11400000, guid: d5693947e687bcf478ddf35edaa8d711, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}
