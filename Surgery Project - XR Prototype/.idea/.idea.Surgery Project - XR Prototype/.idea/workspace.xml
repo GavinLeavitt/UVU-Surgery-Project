@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
@@ -89,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +174,7 @@
       <workItem from="1613150436776" duration="3809000" />
       <workItem from="1613260095364" duration="620000" />
       <workItem from="1613262706403" duration="1952000" />
-      <workItem from="1613415164089" duration="2168000" />
+      <workItem from="1613415164089" duration="3162000" />
     </task>
     <servers />
   </component>

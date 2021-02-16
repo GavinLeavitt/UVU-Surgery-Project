@@ -10,26 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Femoral Interference Screw Position Step
+  m_Name: Femoral Interference Screw Install Step
   m_EditorClassIdentifier: 
-  text: With your screwdrive set up, now we move on to the final steps of the surgery.
-    First we need to get the Femoral Interference Screw into position before we can
-    install it. Insert the Screwdriver with the Interference Screw attached through
-    the Right Incision and directly behind the Femoral side of the Tendon.
+  text: All that's left is to install the Interference Screw. To do so, grab the
+    screwdriver and rotate it clockwise to drive the interference screw deeper.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 26c5e5aa45a418c40901ae2df6aef32c, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
+      - m_Target: {fileID: 11400000, guid: 6328c0b88ae399546bd7a745b7b4f60c, type: 2}
+        m_MethodName: EventDebug
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 'REMOVE ME WHEN YOU MAKE NEXT STEP : Femoral Interference
+            Screw Install Step'
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 4e6db7e2ba8a577478bc325aea7a5f7a, type: 2}
+  - {fileID: 11400000, guid: c5bc41fb68ac6884a9b4d6ef568165d0, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

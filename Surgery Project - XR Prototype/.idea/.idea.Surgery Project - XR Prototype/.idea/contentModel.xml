@@ -33,6 +33,7 @@
           <e p="ReportingGrabInteractable.cs" t="Include" />
           <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="RigidbodyBehaviorChannel.cs" t="Include" />
+          <e p="ScrewdriverBehavior.cs" t="Include" />
           <e p="SO Bases" t="Include">
             <e p="BoolSO.cs" t="Include" />
             <e p="ControllerStatusSO.cs" t="Include" />
