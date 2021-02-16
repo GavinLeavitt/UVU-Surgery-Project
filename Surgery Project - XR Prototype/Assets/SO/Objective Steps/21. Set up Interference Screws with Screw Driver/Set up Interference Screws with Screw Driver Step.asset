@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Snip Guide Pin Sutures Step
+  m_Name: Set up Interference Screws with Screw Driver Step
   m_EditorClassIdentifier: 
-  text: With the Tendon in place, its time to separate it from the guide pin by cutting
-    the sutures. Grab the Scissors on the table and snip the Suture attached to the
-    Femoral Guide Pin by pressing the trigger.
+  text: With the Tendon in place, it's time to secure it into place. First step is
+    to get your first Interference Screw set onto your screwdriver. One of both can
+    be found on the table.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 25633d5902ea7ee40ab7779b5c1636f5, type: 2}
+      - m_Target: {fileID: 11400000, guid: f01b879c8aafbf745b58fc99a034cf63, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -30,5 +30,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: d5693947e687bcf478ddf35edaa8d711, type: 2}
+  - {fileID: 11400000, guid: 52a00a123a4e6674dbd4314d034896a5, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}
