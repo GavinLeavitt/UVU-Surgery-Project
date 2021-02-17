@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.16/Runtime/XRGeneralSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HingeJointBehaviorChannel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -66,7 +68,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/AwakeEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBTransformChannels.cs" />
@@ -80,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrueSocketInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementTypeChangeGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingXRController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
@@ -88,8 +88,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HingeJointBehaviorChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" />
       </list>
     </option>
@@ -174,7 +178,8 @@
       <workItem from="1613150436776" duration="3809000" />
       <workItem from="1613260095364" duration="620000" />
       <workItem from="1613262706403" duration="1952000" />
-      <workItem from="1613415164089" duration="3162000" />
+      <workItem from="1613415164089" duration="3843000" />
+      <workItem from="1613503763365" duration="14288000" />
     </task>
     <servers />
   </component>
@@ -203,10 +208,10 @@
       <screen x="1920" y="-840" width="1080" height="1920" />
     </state>
     <state x="2294" y="-179" key="RiderGenerateDialog/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611702901843" />
-    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup" timestamp="1611800268788">
+    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup" timestamp="1613512038187">
       <screen x="1920" y="-840" width="1080" height="1920" />
     </state>
-    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1611800268788" />
+    <state x="2123" y="-395" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-840.1080.1920/0.-1200.1920.1200/-1920.0.1920.1080@1920.-840.1080.1920" timestamp="1613512038187" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

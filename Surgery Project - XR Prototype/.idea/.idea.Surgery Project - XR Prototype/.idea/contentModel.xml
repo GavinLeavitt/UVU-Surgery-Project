@@ -21,6 +21,7 @@
             <e p="UpdateEventBehaviour.cs" t="Include" />
           </e>
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="HingeJointBehaviorChannel.cs" t="Include" />
           <e p="IncisionBehavior.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="KinematicDropGrabInteractable.cs" t="Include" />
@@ -44,6 +45,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="TMPTextBehavior.cs" t="Include" />
+          <e p="TransformBehavior.cs" t="Include" />
           <e p="XRGrabRigidbodyBehavior.cs" t="Include" />
         </e>
         <e p="UI" t="Include">

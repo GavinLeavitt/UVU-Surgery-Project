@@ -78,6 +78,17 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
         configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
         configJointObj.angularZMotion = ConfigurableJointMotion.Limited;
     }
+    
+    // Everything should be locked but I want the object to rotate on X axis Freely
+    public void LockAllButYAngular()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Locked;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Free;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
+    }
 
     public void SetZAngularLimit(float limit)
     {
