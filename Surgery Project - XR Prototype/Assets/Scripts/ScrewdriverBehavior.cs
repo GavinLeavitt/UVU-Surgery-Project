@@ -4,7 +4,9 @@ using UnityEngine.Events;
 public class ScrewdriverBehavior : MonoBehaviour
 {
     public GameObject screw;
-     public Vector3Data screwStartPosition, screwEndPosition, driverStartPosition, driverEndPosition;
+    public Vector3Data screwStartPosition, screwEndPosition, driverStartPosition, driverEndPosition;
+    public bool followDriverRotation;
+     
      
      private float currentRot = 0; // current rotation of driver, resets on grab or release
      private float reqRot; // a set value that the driver has to rotate to or past
@@ -53,6 +55,10 @@ public class ScrewdriverBehavior : MonoBehaviour
 
          screw.transform.position = Vector3.Lerp(screwStartPosition.value, screwEndPosition.value, drive);
          transform.position = Vector3.Lerp(driverStartPosition.value, driverEndPosition.value, drive);
-         screw.transform.localEulerAngles = new Vector3(transform.localEulerAngles.z, screw.transform.localEulerAngles.y, screw.transform.localEulerAngles.z);
+         
+         if (followDriverRotation)
+         {
+             screw.transform.localEulerAngles = new Vector3(transform.localEulerAngles.z, screw.transform.localEulerAngles.y, screw.transform.localEulerAngles.z);
+         }
      }
 }

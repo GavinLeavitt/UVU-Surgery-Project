@@ -90,6 +90,16 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
         configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
     }
 
+    public void LockAllButXAngular()
+    {
+        configJointObj.xMotion = ConfigurableJointMotion.Locked;
+        configJointObj.yMotion = ConfigurableJointMotion.Locked;
+        configJointObj.zMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularXMotion = ConfigurableJointMotion.Free;
+        configJointObj.angularYMotion = ConfigurableJointMotion.Locked;
+        configJointObj.angularZMotion = ConfigurableJointMotion.Locked;
+    }
+
     public void SetZAngularLimit(float limit)
     {
         SoftJointLimit jointLimit = new SoftJointLimit();

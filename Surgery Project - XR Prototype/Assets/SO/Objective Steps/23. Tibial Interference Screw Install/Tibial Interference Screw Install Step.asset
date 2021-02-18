@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
-  m_Name: Set Up Tibial Interference Screw with Screwdriver Step
+  m_Name: Tibial Interference Screw Install Step
   m_EditorClassIdentifier: 
-  text: With the Femoral side of the Tendon secured in place, all thats left to do
-    is to repeat the steps for the Tibial side. Go back to the table and assemble
-    the Screwdriver with another Interference Screw.
+  text: Finally, its time to install the screw. Just like with the Femoral Screw,
+    twist the Screwdriver clockwise to drive the screw into the Tendon. However,
+    unlike with the Femoral Screw, you'll be doing this blind.
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: cbba76783bf1b894b854f64fe87eb383, type: 2}
+      - m_Target: {fileID: 11400000, guid: 78e02c877e38d7d49bc6076a07d6f2d6, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
@@ -30,5 +30,5 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   objectives:
-  - {fileID: 11400000, guid: 451898699ab77ae46aff9449cfa0f268, type: 2}
+  - {fileID: 11400000, guid: 54bb45d9ee6026544a640689141c50db, type: 2}
   channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

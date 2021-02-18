@@ -59,7 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
@@ -95,6 +94,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -180,6 +180,7 @@
       <workItem from="1613262706403" duration="1952000" />
       <workItem from="1613415164089" duration="3843000" />
       <workItem from="1613503763365" duration="14890000" />
+      <workItem from="1613671241091" duration="6743000" />
     </task>
     <servers />
   </component>

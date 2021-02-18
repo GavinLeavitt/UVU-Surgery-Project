@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
+  m_Name: End of Surgery Step
+  m_EditorClassIdentifier: 
+  text: Congratulations, you've complete the ACL Reconstruction surgery simulation!
+    You're free to look around the room and mess around with the tools. Whenever
+    you're finished, hit the Start button on the left controller to open the Pause
+    menu and you can restart the simulation or close the program.
+  taskCompleteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectives: []
+  channel: {fileID: 11400000, guid: 7c7f0ccf02c8b5b4190a5db623d3e109, type: 2}

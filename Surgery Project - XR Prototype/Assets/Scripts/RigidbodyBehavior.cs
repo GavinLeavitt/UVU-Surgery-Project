@@ -34,4 +34,14 @@ public class RigidbodyBehavior : MonoBehaviour
     {
         rb.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationX;
     }
+
+    public void FreezeYAndZRotation()
+    {
+        rb.constraints = RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+    }
+
+    public void FreezePosition()
+    {
+        rb.constraints = RigidbodyConstraints.FreezePosition;
+    }
 }
