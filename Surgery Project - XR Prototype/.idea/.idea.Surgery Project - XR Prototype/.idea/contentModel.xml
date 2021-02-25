@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraBehavior.cs" t="Include" />
           <e p="CannulatedDrill.cs" t="Include" />
+          <e p="CapsuleColliderBehavior.cs" t="Include" />
           <e p="ConfigurableJointBehaviorRBChannel.cs" t="Include" />
           <e p="ControllerVibration.cs" t="Include" />
           <e p="DisableObj.cs" t="Include" />
@@ -32,6 +33,7 @@
           <e p="ParentingDirectInteractor.cs" t="Include" />
           <e p="ParentObj.cs" t="Include" />
           <e p="ReportingGrabInteractable.cs" t="Include" />
+          <e p="ResetExitMenu.cs" t="Include" />
           <e p="RigidbodyBehavior.cs" t="Include" />
           <e p="RigidbodyBehaviorChannel.cs" t="Include" />
           <e p="ScrewdriverBehavior.cs" t="Include" />

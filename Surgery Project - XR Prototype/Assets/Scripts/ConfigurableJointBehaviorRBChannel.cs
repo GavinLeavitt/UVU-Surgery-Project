@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(ConfigurableJoint))]
 public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
@@ -12,6 +13,11 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
     {
         configJointObj = GetComponent<ConfigurableJoint>();
         rbChannel.rbAction += AssignConnectingRB;
+    }
+
+    private void OnDestroy()
+    {
+        rbChannel.rbAction -= AssignConnectingRB;
     }
 
     private void AssignConnectingRB(Rigidbody rb)
