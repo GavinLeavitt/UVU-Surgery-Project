@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Leg_Rig_01.ma
-//Last modified: Sat, Mar 06, 2021 04:10:44 PM
+//Last modified: Sat, Mar 06, 2021 04:38:04 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -11,11 +11,11 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
-fileInfo "UUID" "9D285AC8-49EB-DD17-A215-9E99E9584B92";
+fileInfo "UUID" "CF4BF936-4E37-26F0-58D1-BF8449D31BCF";
 createNode transform -s -n "persp";
 	rename -uid "725949AF-4511-D0C2-E61C-7CBB309BC0A2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 22.415318994875776 6.0965529689546614 4.4282203165134986 ;
+	setAttr ".t" -type "double3" 10.204572364589602 2.146182095681703 2.5815185140017141 ;
 	setAttr ".r" -type "double3" 342.26164726325408 -278.60000000023183 -359.99999999897102 ;
 	setAttr ".rp" -type "double3" 0 -8.8817841970012523e-16 0 ;
 	setAttr ".rpt" -type "double3" -1.9860503477175906e-18 7.0152831675287855e-17 2.1216290482908919e-16 ;
@@ -23,7 +23,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CD8013C9-4456-0FAD-0F40-FE8527645404";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.101936379426682;
+	setAttr ".coi" 11.135901100558888;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -19065,7 +19065,7 @@ createNode joint -n "Knee_Jnt" -p "Thigh_Jnt";
 	setAttr ".uoc" 1;
 	setAttr ".oc" 1;
 	setAttr ".t" -type "double3" 2.5875955769880026 6.6613381477509392e-16 1.9721522630525295e-31 ;
-	setAttr ".r" -type "double3" 0 0 66.757231317362823 ;
+	setAttr ".r" -type "double3" 0 0 25.0754196010435 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" -1.2074182623345287e-06 -3.7024346813783235e-15 16.91910046972875 ;
@@ -25099,6 +25099,8 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :ikSystem;
+	setAttr -s 4 ".sol";
 connectAttr "geo.di" "Leg_Low.do";
 connectAttr "Leg_Low_translateX.o" "Leg_Low.tx" -l on;
 connectAttr "Leg_Low_translateY.o" "Leg_Low.ty" -l on;

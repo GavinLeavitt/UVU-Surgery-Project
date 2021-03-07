@@ -19,6 +19,11 @@ public class ConfigurableJointBehaviorRBChannel : MonoBehaviour
     {
         rbChannel.rbAction -= AssignConnectingRB;
     }
+    
+    private void OnDisable()
+    {
+        rbChannel.rbAction -= AssignConnectingRB;
+    }
 
     private void AssignConnectingRB(Rigidbody rb)
     {

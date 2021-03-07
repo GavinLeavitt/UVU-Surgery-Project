@@ -5,7 +5,7 @@ public class RigidbodyBehavior : MonoBehaviour
 {
     private Rigidbody rb;
 
-    private void Start()
+    private void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
     }

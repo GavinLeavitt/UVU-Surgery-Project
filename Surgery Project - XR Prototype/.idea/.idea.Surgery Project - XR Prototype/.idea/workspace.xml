@@ -35,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/Interactables/XRBaseInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/UI/TrackedDeviceGraphicRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableOnTrue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8AB387C8-6A21-4E26-B782-3F0B31F9D113/fe/50725e4b/0200001Apdb.il" root0="SKIP_HIGHLIGHTING" />
@@ -78,7 +79,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ForceDrop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropObjXRGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalAdditionalCameraData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerCallOnceEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrueSocketInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementTypeChangeGrabInteractable.cs" />
@@ -94,12 +94,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HingeJointBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetExitMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CapsuleColliderBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ConfigurableJointBehaviorRBChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisableonTrue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrue.cs" />
       </list>
     </option>
   </component>
@@ -188,6 +191,7 @@
       <workItem from="1613671241091" duration="7515000" />
       <workItem from="1613846715176" duration="2804000" />
       <workItem from="1614284592144" duration="283000" />
+      <workItem from="1615077945036" duration="3963000" />
     </task>
     <servers />
   </component>
