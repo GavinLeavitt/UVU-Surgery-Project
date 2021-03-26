@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Remove Tibial Guide Device Step
   m_EditorClassIdentifier: 
-  text: With the Guide Pin in place, now you must remove the Caliper
+  text: '11. Removal of the Guide Device
+
+    With the Guide Pin firmly in place,
+    now you have to remove the Guide Device from the knee.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

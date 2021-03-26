@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Removal of Damaged Cartilage Step
   m_EditorClassIdentifier: 
-  text: Glide the tip of the Shaver over the damaged cartilage marked in red.
+  text: '5. Trimming away the damaged cartilage
+
+    To remove the damaged cartilage,
+    glide the tip of the Shaver over the damaged cartilage marked in red.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

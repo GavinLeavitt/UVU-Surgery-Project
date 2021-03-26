@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Remove Femural Drill Step
   m_EditorClassIdentifier: 
-  text: With the tunnel created, it's time to remove the drill. Do so by sliding
-    it off the guide pin.
+  text: '22. Removing the Drill from the Femoral Tunnel
+
+    With the tunnel created,
+    it''s time to remove the drill. Do so by sliding it off the guide pin.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

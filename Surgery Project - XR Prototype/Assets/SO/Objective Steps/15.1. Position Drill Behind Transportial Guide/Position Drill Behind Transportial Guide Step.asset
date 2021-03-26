@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Position Drill Behind Transportial Guide Step
   m_EditorClassIdentifier: 
-  text: With the drill set up, move it directly behind the Transportal Guide while
-    threading the pin through the opening on the back side of the guide.
+  text: '16. Positioning the Drill
+
+    With the drill set up, move it directly behind
+    the Transportal Guide while threading the pin through the opening on the back
+    side of the guide.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

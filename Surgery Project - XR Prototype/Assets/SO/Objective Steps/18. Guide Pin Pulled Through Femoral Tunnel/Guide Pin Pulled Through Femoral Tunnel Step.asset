@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Guide Pin Pulled Through Femoral Tunnel Step
   m_EditorClassIdentifier: 
-  text: With the Chuck attached to the Guide Pin, all thats left is to pull it through
-    the femoral tunnel bringing the Suture with it.
+  text: '25. Pulling the Guide Pin
+
+    With the Chuck attached to the Guide Pin,
+    all thats left is to pull it through the femoral tunnel bringing the Suture with
+    it.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

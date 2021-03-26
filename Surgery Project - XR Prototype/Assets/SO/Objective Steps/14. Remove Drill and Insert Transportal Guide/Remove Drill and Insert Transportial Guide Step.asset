@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Remove Drill and Insert Transportial Guide Step
   m_EditorClassIdentifier: 
-  text: With the Tibial Tunnel being drilled, remove the drill from the tunnel. Grab
-    the Transportial Guide from the table and place it in position using the right
-    incision.
+  text: '14. Drill removal and Transportal Guide insertion
+
+    With the Tibial Tunnel
+    being drilled, remove the drill from the tunnel. Grab the Transportial Guide
+    from the table and place it in position using the right incision.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

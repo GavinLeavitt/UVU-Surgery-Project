@@ -12,23 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Femoral Interference Screw Install Step
   m_EditorClassIdentifier: 
-  text: All that's left is to install the Interference Screw. To do so, grab the
-    screwdriver and rotate it clockwise to drive the interference screw deeper.
+  text: '31. Installing the Femoral Interference Screw
+
+    All that''s left is to
+    install the Interference Screw. To do so, grab the screwdriver and rotate it
+    clockwise to drive the interference screw into the graft of the Tendon.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 6328c0b88ae399546bd7a745b7b4f60c, type: 2}
-        m_MethodName: EventDebug
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PROOF THAT Femoral Interference Screw Install Step IS
-            CALLING
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 8ec09bb1bb47e1945831b5725b57a350, type: 2}
         m_MethodName: Raise
         m_Mode: 1

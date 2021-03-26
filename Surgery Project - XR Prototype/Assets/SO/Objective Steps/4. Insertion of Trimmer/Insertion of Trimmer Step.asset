@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Insertion of Trimmer Step
   m_EditorClassIdentifier: 
-  text: With the Shaver assembled, it's time to insert it into the right incision
-    opposite of the Arthroscope.
+  text: '4. Inserting the Trimmer
+
+    With the Trimmer assembled, it''s time to
+    insert it into the right incision opposite of the Arthroscope.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
