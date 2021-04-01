@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Assemble Drill for Femur Guide Pin Step
   m_EditorClassIdentifier: 
-  text: With the Guide in place, go back to the table and assemble the drill just
-    like you did with the Tibial guide pin.
+  text: '15. Assembling the drill part 3
+
+    With the Transportal Guide in place,
+    go back to the table and assemble the drill just like you did with the Tibial
+    guide pin.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

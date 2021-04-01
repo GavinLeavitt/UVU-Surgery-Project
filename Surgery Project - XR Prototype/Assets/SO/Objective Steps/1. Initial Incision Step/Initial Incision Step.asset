@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Initial Incision Step
   m_EditorClassIdentifier: 
-  text: Using a scapel, make an incision on the left side of the patient's knee
+  text: '1. Initial Incisions
+
+    Using the Scalpel on the table, make an incision
+    on both sides of the Patient''s knee. To grab the Scalpel, hover your hand over
+    the Scalpel and hold down the Side Trigger on the controller. Release the Side
+    Trigger to release the Scalpel.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

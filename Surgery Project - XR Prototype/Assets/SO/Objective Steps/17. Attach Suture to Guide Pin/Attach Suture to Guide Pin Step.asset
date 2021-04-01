@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Attach Suture to Guide Pin Step
   m_EditorClassIdentifier: 
-  text: It's now time to introduce the new tendon to the knee cavity. To do so we
-    must first pass a suture through the Femoral Tunnel while leaving one end to
-    pass through the Tibial Tunnel. Let's start by attaching a Suture to the end
-    of the Femoral Guide Pin.
+  text: '23. Attaching the Suture
+
+    It''s now time to introduce the new tendon
+    to the knee cavity. To do so we must first pass a suture through the Femoral
+    Tunnel while leaving one end to pass through the Tibial Tunnel. Let''s start
+    by attaching a Suture to the end of the Femoral Guide Pin.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

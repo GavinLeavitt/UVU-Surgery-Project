@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Arthroscope Insertion Step
   m_EditorClassIdentifier: 
-  text: Now grab and insert the Arthroscope, found on the table, into the left incision.
+  text: '2. Insertion of the Arthroscope
+
+    Now grab and insert the Arthroscope
+    into the left incision.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Tibial Interference Screw Install Step
   m_EditorClassIdentifier: 
-  text: Finally, its time to install the screw. Just like with the Femoral Screw,
-    twist the Screwdriver clockwise to drive the screw into the Tendon. However,
-    unlike with the Femoral Screw, you'll be doing this blind.
+  text: '34. Installing the Tibial Interference Screw
+
+    Finally, its time to install
+    the screw. Just like with the Femoral Screw, twist the Screwdriver clockwise
+    to drive the screw into the Tendon. However, unlike with the Femoral Screw, you''ll
+    be doing this blind.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Drill Femural Tunnel Step
   m_EditorClassIdentifier: 
-  text: Now that you have the drill in position, hold down the trigger and push forward
-    with the drill in hand to create the Femural Tunnel.
+  text: '21. Drilling the Femoral Tunnel
+
+    Now that you have the drill in position,
+    hold down the trigger and push forward with the drill in hand to create the Femural
+    Tunnel.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

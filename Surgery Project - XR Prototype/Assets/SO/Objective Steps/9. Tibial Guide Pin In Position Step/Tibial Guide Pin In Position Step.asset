@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Tibial Guide Pin In Position Step
   m_EditorClassIdentifier: 
-  text: With the drill assembled, it's time to move it into position by inserting
-    the guide pin into the Drill Sleeve thats attached to the Caliper.
+  text: '9. Moving the Drill into position
+
+    With the drill assembled, it''s time
+    to move it into position by inserting the Guide Pin into the Drill Sleeve thats
+    attached to the bottom of the Guide Device.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

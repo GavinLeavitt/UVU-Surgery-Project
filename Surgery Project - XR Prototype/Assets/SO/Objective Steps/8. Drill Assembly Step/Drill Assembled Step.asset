@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Drill Assembled Step
   m_EditorClassIdentifier: 
-  text: With the Caliper in place, it's time to assemble your Cannulated Drill. Insert
-    the correct drill bit into the port on the front end of the drill. Then insert
-    the guide pin into the drill through the drill bit.
+  text: '8. Assembling the Drill
+
+    With the Guide Device in place, it''s time
+    to assemble your Cannulated Drill. Insert the correct drill bit into the port
+    on the front end of the drill. Then insert the Guide Pin into the drill through
+    the drill bit.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

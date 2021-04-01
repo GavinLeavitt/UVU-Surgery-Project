@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Attach ACL to Suture Step
   m_EditorClassIdentifier: 
-  text: With the Suture pulled into the knee cavity through both the Tibial and Femoral
-    Tunnels, now is the time to attach the Tendon to the end of the Suture going
-    through the Tibial Tunnel. Move it into position to attach it to the Suture.
+  text: '26. Attaching the new Tendon
+
+    With the Suture pulled into the knee cavity
+    through both the Tibial and Femoral Tunnels, now is the time to attach the Tendon
+    to the end of the Suture going through the Tibial Tunnel. Move it into position
+    to attach it to the Suture.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

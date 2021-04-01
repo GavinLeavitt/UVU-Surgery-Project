@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Pull ACL into Position Step
   m_EditorClassIdentifier: 
-  text: With the Tendon attached to the end of your Suture, now you have to pull
-    it into the knee cavity through the Tibial Tunnel via the Chuck Handle. Pull
-    the Handle out to pull the Tendon into position.
+  text: '27. Pulling Tendon into position
+
+    With the Tendon attached to the end
+    of your Suture, now you have to pull it into the knee cavity through the Tibial
+    Tunnel via the Chuck Handle. Pull the Handle out to pull the Tendon into position.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
