@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR;
 
 public class ControllerVibration : MonoBehaviour
@@ -7,6 +8,7 @@ public class ControllerVibration : MonoBehaviour
     public float amplitude = .5f, duration = 0.1f;
     public XRNode controllerNode;
     private InputDevice controller;
+    public UnityEvent triggerPulledEvent;
 
     private void Start()
     {
@@ -18,6 +20,7 @@ public class ControllerVibration : MonoBehaviour
         if (controller.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1)
         {
             Vibrate();
+            triggerPulledEvent.Invoke();
         }
     }
 
