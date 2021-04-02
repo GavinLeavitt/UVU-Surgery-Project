@@ -43954,9 +43954,10 @@ AudioSource:
   m_GameObject: {fileID: 1816229227}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ec65940f2434e46809af2499ac394a6c,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: f33d9c6b9f1c6974e942b45209f2a59e, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -45931,7 +45932,7 @@ MonoBehaviour:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 580557544}
-  m_AttachEaseInTime: 0
+  m_AttachEaseInTime: 0.25
   m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 1
@@ -58223,7 +58224,8 @@ AudioSource:
   m_GameObject: {fileID: 8788417188807375635}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ec65940f2434e46809af2499ac394a6c,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 782e475445d433b4891234c295f4b0fe, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
