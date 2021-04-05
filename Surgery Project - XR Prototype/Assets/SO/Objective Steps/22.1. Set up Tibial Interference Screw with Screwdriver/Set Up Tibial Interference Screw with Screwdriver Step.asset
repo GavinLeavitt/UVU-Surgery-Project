@@ -15,7 +15,7 @@ MonoBehaviour:
   text: '32. Assembling the Tibial Screwdriver
 
     With the Femoral side of the
-    Tendon secured in place, all thats left to do is to repeat the steps for the
+    Tendon secured in place, all that''s left to do is to repeat the steps for the
     Tibial side. Go back to the table and assemble the Screwdriver with another Interference
     Screw.'
   taskCompleteEvent:

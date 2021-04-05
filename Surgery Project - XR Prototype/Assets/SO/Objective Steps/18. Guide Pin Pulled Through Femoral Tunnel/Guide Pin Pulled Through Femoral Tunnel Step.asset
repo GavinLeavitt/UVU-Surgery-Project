@@ -15,8 +15,8 @@ MonoBehaviour:
   text: '25. Pulling the Guide Pin
 
     With the Chuck attached to the Guide Pin,
-    all thats left is to pull it through the femoral tunnel bringing the Suture with
-    it.'
+    all that''s left is to pull it through the femoral tunnel bringing the Suture
+    with it.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

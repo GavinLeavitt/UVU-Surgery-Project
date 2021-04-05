@@ -15,7 +15,7 @@ MonoBehaviour:
   text: '21. Drilling the Femoral Tunnel
 
     Now that you have the drill in position,
-    hold down the trigger and push forward with the drill in hand to create the Femural
+    hold down the trigger and push forward with the drill in hand to create the Femoral
     Tunnel.'
   taskCompleteEvent:
     m_PersistentCalls:

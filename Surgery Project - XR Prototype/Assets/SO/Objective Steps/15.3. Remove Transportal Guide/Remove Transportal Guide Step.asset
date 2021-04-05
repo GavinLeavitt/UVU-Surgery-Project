@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '18. Removing the Transportal Guide
 
-    Before we can drill the Femural
+    Before we can drill the Femoral
     Tunnel, we have to remove the Transportal Guide. Let''s do that now.'
   taskCompleteEvent:
     m_PersistentCalls:

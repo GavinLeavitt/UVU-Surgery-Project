@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '19. Assembling the Drill part 4
 
-    With the Femural Guide Pin in place,
-    go back to the table and swap out your drill bit for the Femural Tunnel Drill
+    With the Femoral Guide Pin in place,
+    go back to the table and swap out your drill bit for the Femoral Tunnel Drill
     Bit.'
   taskCompleteEvent:
     m_PersistentCalls:

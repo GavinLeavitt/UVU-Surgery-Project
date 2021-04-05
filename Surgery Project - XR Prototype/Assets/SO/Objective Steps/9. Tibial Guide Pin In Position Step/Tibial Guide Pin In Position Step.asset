@@ -15,7 +15,7 @@ MonoBehaviour:
   text: '9. Moving the Drill into position
 
     With the drill assembled, it''s time
-    to move it into position by inserting the Guide Pin into the Drill Sleeve thats
+    to move it into position by inserting the Guide Pin into the Drill Sleeve that''s
     attached to the bottom of the Guide Device.'
   taskCompleteEvent:
     m_PersistentCalls:

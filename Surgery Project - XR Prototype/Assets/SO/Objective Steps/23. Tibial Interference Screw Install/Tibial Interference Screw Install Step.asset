@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '34. Installing the Tibial Interference Screw
 
-    Finally, its time to install
-    the screw. Just like with the Femoral Screw, twist the Screwdriver clockwise
+    Finally, it''s time to
+    install the screw. Just like with the Femoral Screw, twist the Screwdriver clockwise
     to drive the screw into the Tendon. However, unlike with the Femoral Screw, you''ll
     be doing this blind.'
   taskCompleteEvent:
