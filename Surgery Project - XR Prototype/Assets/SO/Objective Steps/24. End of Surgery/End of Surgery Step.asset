@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: End of Surgery Step
   m_EditorClassIdentifier: 
-  text: Congratulations, you've complete the ACL Reconstruction surgery simulation!
-    You're free to look around the room and mess around with the tools. Whenever
-    you're finished, hit the Start button on the left controller to open the Pause
-    menu and you can restart the simulation or close the program.
+  text: '35. Surgery Complete
+
+    Congratulations, you''ve completed the ACL Reconstruction
+    surgery simulation! You''re free to look around the room and mess around with
+    the tools. Whenever you''re finished, leave the room via the door.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls: []

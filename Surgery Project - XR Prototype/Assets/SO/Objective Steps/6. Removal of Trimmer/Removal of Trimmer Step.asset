@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Removal of Trimmer Step
   m_EditorClassIdentifier: 
-  text: With the damaged cartilage removed, it's time to remove the shaver from the
-    knee cavity.
+  text: '6. Removing the Trimmer
+
+    With the damaged cartilage removed, it''s time
+    to remove the Trimmer from the Patient''s knee. '
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -67,7 +67,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveBoolSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XRGrabRigidbodyBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ControllerStatusSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/AwakeEventBehavior.cs" />
@@ -103,6 +102,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidbodyBehaviorChannel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableonTrue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioSourceBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
       </list>
     </option>
   </component>
@@ -194,6 +195,8 @@
       <workItem from="1615077945036" duration="4573000" />
       <workItem from="1615425698208" duration="595000" />
       <workItem from="1616086141845" duration="1921000" />
+      <workItem from="1616273229190" duration="1304000" />
+      <workItem from="1617244914691" duration="1145000" />
     </task>
     <servers />
   </component>

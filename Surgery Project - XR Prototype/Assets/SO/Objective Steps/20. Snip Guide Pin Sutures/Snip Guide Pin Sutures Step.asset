@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Snip Guide Pin Sutures Step
   m_EditorClassIdentifier: 
-  text: With the Tendon in place, its time to separate it from the guide pin by cutting
-    the sutures. Grab the Scissors on the table and snip the Suture attached to the
-    Femoral Guide Pin by pressing the trigger.
+  text: '28. Cutting the Suture
+
+    With the Tendon in place, its time to separate
+    it from the Guide Pin by cutting the Suture. Grab the Scissors on the table and
+    snip the Suture attached to the Femoral Guide Pin by pressing the trigger.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Assembly of Trimmer Step
   m_EditorClassIdentifier: 
-  text: There seems to be some torn cartilage. Assemble the Trimmer tool so we can
-    remove the cartilage.
+  text: '3. Assembling the Trimmer
+
+    There seems to be some torn cartilage. Assemble
+    the Trimmer tool so we can remove the cartilage. To assemble the Trimmer, simply
+    combine the Trimmer and the Trimmer Tip by placing the Tip into the socket of
+    the Trimmer.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

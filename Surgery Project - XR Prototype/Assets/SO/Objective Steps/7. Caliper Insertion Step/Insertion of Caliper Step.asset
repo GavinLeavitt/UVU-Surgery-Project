@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Insertion of Caliper Step
   m_EditorClassIdentifier: 
-  text: Grab the Caliper and insert it into the incision and place it into the correct
-    position and angle.
+  text: '7. Inserting the Guide Device
+
+    Grab the Guide Device and insert it into
+    the right incision and place it into the correct position. The tip of the Guide
+    Device should be firmly placed at the top of the Patient''s Tibia bone. If needed,
+    readjust the Arthroscope to get a better view before you insert the device.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

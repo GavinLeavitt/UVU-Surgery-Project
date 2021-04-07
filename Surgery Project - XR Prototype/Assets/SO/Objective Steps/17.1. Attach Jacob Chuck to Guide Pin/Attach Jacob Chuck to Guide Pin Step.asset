@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Attach Jacob Chuck to Guide Pin Step
   m_EditorClassIdentifier: 
-  text: With the Suture attached the guide pin, now we must attach a Jacob Chuck
-    Handle to the tip of the Femoral Guide Pin to allow us to pull it through the
-    Femoral Tunnel.
+  text: '24. Attaching the Handle
+
+    With the Suture attached to the guide pin,
+    now we must attach a Jacob Chuck Handle to the tip of the Femoral Guide Pin to
+    allow us to pull it through the Femoral Tunnel. Simply move the Handle into place
+    where the Guide Pin sticks out of the Patient''s Thigh.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Remove Transportal Guide Step
   m_EditorClassIdentifier: 
-  text: Before we can drill the Femural Tunnel, we have to remove the Transportal
-    Guide. Let's do that now.
+  text: '18. Removing the Transportal Guide
+
+    Before we can drill the Femoral
+    Tunnel, we have to remove the Transportal Guide. Let''s do that now.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

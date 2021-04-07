@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Drill Femur Guide Pin Step
   m_EditorClassIdentifier: 
-  text: With the drill in position, hold down the trigger to drill the guide pin
-    into place.
+  text: '17. Drilling the Femoral Guide Pin
+
+    With the drill in position, hold
+    down the trigger to drill the guide pin into place.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

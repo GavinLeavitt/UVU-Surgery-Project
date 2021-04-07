@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Set up Interference Screws with Screw Driver Step
   m_EditorClassIdentifier: 
-  text: With the Tendon in place, it's time to secure it into place. First step is
-    to get your first Interference Screw set onto your screwdriver. One of both can
-    be found on the table.
+  text: '29. Assembling the Screwdriver
+
+    With the Tendon in place, it''s time
+    to secure it into place. First step is to get your first Interference Screw set
+    onto your screwdriver.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

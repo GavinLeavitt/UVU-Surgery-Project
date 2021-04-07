@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Assemble Drill for Femural Tunnel Step
   m_EditorClassIdentifier: 
-  text: With the Femural Guide Pin in place, go back to the table and swap out your
-    drill bit for the Femural Tunnel Drill Bit.
+  text: '19. Assembling the Drill part 4
+
+    With the Femoral Guide Pin in place,
+    go back to the table and swap out your drill bit for the Femoral Tunnel Drill
+    Bit.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a8c5a01d3e193749ac60b380ff82d8e, type: 3}
   m_Name: Set Up Tibial Interference Screw with Screwdriver Step
   m_EditorClassIdentifier: 
-  text: With the Femoral side of the Tendon secured in place, all thats left to do
-    is to repeat the steps for the Tibial side. Go back to the table and assemble
-    the Screwdriver with another Interference Screw.
+  text: '32. Assembling the Tibial Screwdriver
+
+    With the Femoral side of the
+    Tendon secured in place, all that''s left to do is to repeat the steps for the
+    Tibial side. Go back to the table and assemble the Screwdriver with another Interference
+    Screw.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
