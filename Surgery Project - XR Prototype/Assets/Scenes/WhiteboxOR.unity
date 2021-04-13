@@ -3077,7 +3077,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b42740a45090f24c8292a9ac3fd52d6,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b42740a45090f24c8292a9ac3fd52d6, type: 3}
@@ -25408,6 +25408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blanket 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00dacc4354df748c79120b0a396fd214,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00dacc4354df748c79120b0a396fd214, type: 3}
