@@ -18,4 +18,9 @@ public class AudioSourceBehavior : MonoBehaviour
     {
         source.PlayOneShot(clip);
     }
+
+    public void StopClip()
+    {
+        source.Stop();
+    }
 }
