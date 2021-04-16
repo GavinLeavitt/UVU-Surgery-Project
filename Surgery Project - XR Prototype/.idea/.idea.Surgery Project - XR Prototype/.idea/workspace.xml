@@ -84,7 +84,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingXRController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentingDirectInteractor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParentObj.cs" />
@@ -104,6 +103,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioSourceBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
       </list>
     </option>
   </component>
@@ -198,6 +198,7 @@
       <workItem from="1616273229190" duration="1304000" />
       <workItem from="1617244914691" duration="1145000" />
       <workItem from="1618357354640" duration="1010000" />
+      <workItem from="1618601565124" duration="5127000" />
     </task>
     <servers />
   </component>
