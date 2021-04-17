@@ -43,9 +43,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidbodyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8AB387C8-6A21-4E26-B782-3F0B31F9D113/d6/91ed49d8/0200000Fpdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetExitMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.4.3/Editor/OculusSettingsEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannulatedDrill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.4.3/Runtime/OculusPerformance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/CameraOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.1/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -90,7 +92,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnabledOnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HingeJointBehaviorChannel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReportingGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrewdriverBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TMPTextBehavior.cs" />
@@ -104,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioSourceBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplicationSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
       </list>
     </option>
   </component>
@@ -199,6 +202,7 @@
       <workItem from="1617244914691" duration="1145000" />
       <workItem from="1618357354640" duration="1010000" />
       <workItem from="1618601565124" duration="5127000" />
+      <workItem from="1618683463340" duration="1663000" />
     </task>
     <servers />
   </component>
