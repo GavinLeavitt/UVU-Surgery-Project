@@ -18717,12 +18717,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
@@ -18772,12 +18772,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.949536
+      value: 0.9256132
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.93802804
+      value: 0.92531776
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e5062127b1a2156448f25e451f6c4987,
         type: 3}
@@ -41932,7 +41932,7 @@ GameObject:
   - component: {fileID: 1635682703}
   - component: {fileID: 1635682702}
   - component: {fileID: 1635682701}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41947,7 +41947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635682699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.327, y: 1.838, z: -10.502}
+  m_LocalPosition: {x: 0.327, y: 1.824, z: -10.502}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 964188100}
@@ -41962,11 +41962,11 @@ HingeJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635682699}
-  m_ConnectedBody: {fileID: 966082150}
-  m_Anchor: {x: 0, y: 0, z: 0}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: -0.43, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: 20.11314, y: 0.14758934, z: 47.40896}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.327, y: 1.394, z: -10.502}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -41979,8 +41979,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -7.435364
-    max: 90
+    min: 9.6406145
+    max: 171.0664
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -42079,8 +42079,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
