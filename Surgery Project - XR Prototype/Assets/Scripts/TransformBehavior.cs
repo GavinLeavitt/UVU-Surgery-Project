@@ -10,6 +10,6 @@ public class TransformBehavior : MonoBehaviour
     //Would be called in an update function or Unity Event
     public void ConstantRotateY(Transform transformObj)
     {
-        transformObj.transform.Rotate(0, 5f,0);
+        transformObj.transform.Rotate(0, 7.5f,0);
     }
 }
