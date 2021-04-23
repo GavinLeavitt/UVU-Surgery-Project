@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/WhiteboxOR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 88a9274fa15e44943b60e226a38d2441,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 044277a915c4041858234197d11346a1,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: b6110c8f378234146b77f666deb250fe,
       type: 2}
