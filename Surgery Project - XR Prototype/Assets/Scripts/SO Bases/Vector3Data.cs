@@ -12,7 +12,10 @@ public class Vector3Data : ScriptableObject
 
     public void ChangeValueToPosition(Transform data)
     {
-        value = data.position;
+        if (value != data.position)
+        {
+            value = data.position;
+        }
     }
     
     public void ChangeValueToRotation(Transform data)
@@ -24,11 +27,17 @@ public class Vector3Data : ScriptableObject
 
     public void MoveToValue(GameObject obj)
     {
-        obj.transform.position = value;
+        if (obj.transform.position != value)
+        {
+            obj.transform.position = value;
+        }
     }
 
     public void RotateToValue(GameObject obj)
     {
-        obj.transform.eulerAngles = value;
+        if (obj.transform.eulerAngles != value)
+        {
+            obj.transform.eulerAngles = value;
+        }
     }
 }

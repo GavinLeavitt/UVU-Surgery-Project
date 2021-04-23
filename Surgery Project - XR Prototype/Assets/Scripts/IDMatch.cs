@@ -19,7 +19,11 @@ public class IDMatch : IDBehavior
     private void OnTriggerEnter(Collider other)
     {
         otherBehaviourObj = other.GetComponent<IDBehavior>();
-        if (otherBehaviourObj == null) return;
+        if (otherBehaviourObj == null)
+        {
+            Debug.Log("found an object without the IDBehavior script on it. " + otherBehaviourObj);
+            return;
+        }
         otherIdObj = otherBehaviourObj.nameIdObj;
         CheckId(1);
     }
