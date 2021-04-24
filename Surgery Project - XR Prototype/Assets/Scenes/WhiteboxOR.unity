@@ -55036,6 +55036,7 @@ GameObject:
   - component: {fileID: 2074838385}
   - component: {fileID: 2074838386}
   - component: {fileID: 2074838387}
+  - component: {fileID: 2074838388}
   m_Layer: 4
   m_Name: XR Rig
   m_TagString: Untagged
@@ -55111,7 +55112,7 @@ MonoBehaviour:
   m_InputBinding: 0
   m_Controllers:
   - {fileID: 1960211550}
-  - {fileID: 1916533015}
+  - {fileID: 1479725831}
   m_DeadzoneMin: 0.125
   m_DeadzoneMax: 0.925
 --- !u!114 &2074838385
@@ -55159,6 +55160,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2074838388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074838380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 0}
+  m_TurnAmount: 45
+  m_DebounceTime: 0.5
+  m_EnableTurnLeftRight: 1
+  m_EnableTurnAround: 1
+  m_TurnUsage: 0
+  m_Controllers:
+  - {fileID: 1916533015}
+  - {fileID: 258912791}
+  m_DeadZone: 0.75
 --- !u!1 &2076528317
 GameObject:
   m_ObjectHideFlags: 0
