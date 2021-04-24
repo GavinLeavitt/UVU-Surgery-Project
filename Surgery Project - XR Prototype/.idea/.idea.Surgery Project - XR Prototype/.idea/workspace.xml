@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/ObjectiveSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CapsuleColliderBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
       </list>
     </option>
   </component>
@@ -205,7 +205,7 @@
       <workItem from="1618683463340" duration="2850000" />
       <workItem from="1619135298650" duration="8286000" />
       <workItem from="1619208011215" duration="594000" />
-      <workItem from="1619284988905" duration="761000" />
+      <workItem from="1619284988905" duration="1279000" />
     </task>
     <servers />
   </component>
