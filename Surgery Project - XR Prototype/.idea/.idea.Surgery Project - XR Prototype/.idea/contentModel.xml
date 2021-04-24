@@ -24,6 +24,7 @@
             <e p="UpdateEventBehaviour.cs" t="Include" />
           </e>
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="HapticFeedbackChannel.cs" t="Include" />
           <e p="HingeJointBehaviorChannel.cs" t="Include" />
           <e p="IDBehavior.cs" t="Include" />
           <e p="IDMatch.cs" t="Include" />
