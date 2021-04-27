@@ -100,7 +100,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableonTrue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableOnTrue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioSourceBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KinematicDropGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplicationSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO Bases/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
       </list>
     </option>
   </component>
@@ -209,7 +209,7 @@
       <workItem from="1619135298650" duration="8286000" />
       <workItem from="1619208011215" duration="594000" />
       <workItem from="1619284988905" duration="1279000" />
-      <workItem from="1619556538167" duration="925000" />
+      <workItem from="1619556538167" duration="1317000" />
     </task>
     <servers />
   </component>
