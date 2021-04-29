@@ -15,8 +15,8 @@ MonoBehaviour:
   text: '14. Drill removal and Transportal Guide insertion
 
     With the Tibial Tunnel
-    being drilled, remove the drill from the tunnel. Grab the Transportial Guide
-    from the table and place it in position using the right incision.'
+    being drilled, remove the drill from the tunnel. Grab the Transportal Guide from
+    the table and place it in position using the right incision.'
   taskCompleteEvent:
     m_PersistentCalls:
       m_Calls:
