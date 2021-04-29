@@ -4,7 +4,11 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
+<<<<<<< HEAD
   m_CurrentQuality: 4
+=======
+  m_CurrentQuality: 2
+>>>>>>> finishingtouches
   m_QualitySettings:
   - serializedVersion: 2
     name: Very Low
