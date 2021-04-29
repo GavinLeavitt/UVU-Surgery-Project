@@ -8,19 +8,35 @@ public class ControllerVibration : MonoBehaviour
     public float amplitude = .5f, duration = 0.1f;
     public XRNode controllerNode;
     private InputDevice controller;
-    public UnityEvent triggerPulledEvent;
+    public UnityEvent triggerPulledEvent, triggerReleasedEvent;
 
-    private void Start()
+    private bool triggerWasPulled;
+
+    private void OnEnable()
     {
         controllerStatusObj.action += UpdateVibratingController;
     }
 
+    private void OnDisable()
+    {
+        controllerStatusObj.action -= UpdateVibratingController;
+    }
+
     private void Update()
     {
-        if (controller.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1)
+        controller.TryGetFeatureValue(CommonUsages.trigger, out float triggerValueOne);
+        
+        if (triggerValueOne > 0.1)
         {
+            triggerWasPulled = true;
             Vibrate();
             triggerPulledEvent.Invoke();
+        }
+
+        if (triggerValueOne < 0.1 && triggerWasPulled)
+        {
+            triggerReleasedEvent.Invoke();
+            triggerWasPulled = false;
         }
     }
 
