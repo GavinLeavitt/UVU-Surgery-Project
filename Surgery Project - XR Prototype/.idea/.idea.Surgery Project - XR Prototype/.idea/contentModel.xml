@@ -24,7 +24,10 @@
             <e p="UpdateEventBehaviour.cs" t="Include" />
           </e>
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="HapticFeedbackChannel.cs" t="Include" />
           <e p="HingeJointBehaviorChannel.cs" t="Include" />
+          <e p="IDBehavior.cs" t="Include" />
+          <e p="IDMatch.cs" t="Include" />
           <e p="IncisionBehavior.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="KinematicDropGrabInteractable.cs" t="Include" />
@@ -44,6 +47,7 @@
             <e p="BoolSO.cs" t="Include" />
             <e p="ControllerStatusSO.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
+            <e p="IDName.cs" t="Include" />
             <e p="ObjectiveBoolSO.cs" t="Include" />
             <e p="ObjectiveSO.cs" t="Include" />
             <e p="UnityEventDebugger.cs" t="Include" />
@@ -52,6 +56,7 @@
           <e p="TMPTextBehavior.cs" t="Include" />
           <e p="TransformBehavior.cs" t="Include" />
           <e p="XRGrabRigidbodyBehavior.cs" t="Include" />
+          <e p="XROffsetGrabInteractable.cs" t="Include" />
         </e>
         <e p="UI" t="Include">
           <e p="Scripts" t="Include">
@@ -68,6 +73,9 @@
                 <e p="Blur.shader" t="Include" />
               </e>
               <e p="TextMesh Pro" t="Include">
+                <e p="Fonts" t="Include">
+                  <e p="LiberationSans - OFL.txt" t="Include" />
+                </e>
                 <e p="Resources" t="Include">
                   <e p="LineBreaking Following Characters.txt" t="Include" />
                   <e p="LineBreaking Leading Characters.txt" t="Include" />
@@ -87,6 +95,14 @@
                     <e p="TMPro_Properties.cginc" t="Include" />
                     <e p="TMPro_Surface.cginc" t="Include" />
                   </e>
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="TMP_SDF SSD.shader" t="Include" />
+                  <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+                  <e p="TMPro_Mobile.cginc" t="Include" />
+                </e>
+                <e p="Sprites" t="Include">
+                  <e p="EmojiOne Attribution.txt" t="Include" />
                 </e>
               </e>
             </e>

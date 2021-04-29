@@ -12,9 +12,14 @@ public class ControllerVibration : MonoBehaviour
 
     private bool triggerWasPulled;
 
-    private void Start()
+    private void OnEnable()
     {
         controllerStatusObj.action += UpdateVibratingController;
+    }
+
+    private void OnDisable()
+    {
+        controllerStatusObj.action -= UpdateVibratingController;
     }
 
     private void Update()
