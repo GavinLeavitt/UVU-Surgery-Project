@@ -61,7 +61,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/UI/MainMenuScript.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Scripts/MainMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IncisionBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Event Behaviours/StartEventBehavior.cs" />
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerVibration.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/Scripts/SettingsMenu.cs" />
       </list>
     </option>
   </component>
@@ -210,7 +210,7 @@
       <workItem from="1619208011215" duration="594000" />
       <workItem from="1619284988905" duration="1279000" />
       <workItem from="1619556538167" duration="1317000" />
-      <workItem from="1619722904760" duration="917000" />
+      <workItem from="1619722904760" duration="1592000" />
     </task>
     <servers />
   </component>
