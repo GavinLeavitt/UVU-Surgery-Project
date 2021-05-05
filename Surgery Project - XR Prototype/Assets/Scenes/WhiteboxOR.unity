@@ -24462,6 +24462,552 @@ Transform:
   m_Father: {fileID: 799953121}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &819984939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819984943}
+  - component: {fileID: 819984942}
+  - component: {fileID: 819984941}
+  - component: {fileID: 819984940}
+  m_Layer: 0
+  m_Name: Tool Teleport Trigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &819984940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819984939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.67061424, y: 0.49302453, z: 0.24416256}
+  m_Center: {x: 2.4691348, y: -0.35517207, z: -5.1659694}
+--- !u!114 &819984941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819984939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4718478e41e11449e8e419c95dc7a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 0}
+  workIdList:
+  - nameIdObj: {fileID: 11400000, guid: 732005e7f8a8e6e4da5c7fd7f0fef554, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 94394b55061b4d74e8cd2c9f02f0cb95, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1601612070}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: d6e7eb72385e75d4b90ac88c39325a4b, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 20c2bb9b49b45b248a6188ceedf3f6c0, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1894887807}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 54f32cea64002f04da3ee60731e98587, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 541fb3a3ca4ca26418d0cd646eadb48e, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 808578507}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 541fb3a3ca4ca26418d0cd646eadb48e, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1032595099}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 541fb3a3ca4ca26418d0cd646eadb48e, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 47819564}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 4aff5ae69d3131d45bad9524a632fc33, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: bb80687c8f12ef642ad0aa421cf18e1f, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 433991550}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: bb80687c8f12ef642ad0aa421cf18e1f, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 799953120}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 43c24556041f02847bf7152f38982508, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: d5a63633c2b0a7c48b1e98dcf548ea08, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1884117894}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: d5a63633c2b0a7c48b1e98dcf548ea08, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1291083143}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 1143eeaa21210334c90840c2fd0a5e41, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b68d11491f24f95488e0df466aa8b80b, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 697860214}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: fb90e6ec4ae244b49853dd05c8b6eba8, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: fdd6aefb32cc9d74880a38df7652c10f, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1389737141}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: aa22c76fb28bae04f918fb17b49f617d, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: d04d4cd78893c0049bef237dc4da8dce, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 180843163}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: d04d4cd78893c0049bef237dc4da8dce, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 9135252997460339286}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: ae5cf2bc5dcca334b8f1db4064b27fed, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: a3378bbbdd85d1a468b8b263e585c0a6, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 18396659}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: a3378bbbdd85d1a468b8b263e585c0a6, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 698939399}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 94d99c3c0be55ec4a9515b08b9018136, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: dad58c987c6fd36449fe2ccf0fb1e44d, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1796306789}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: b0c33b52b4903a54baa39a91ebb7f78a, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: e716ec319a547984fa7b8f2cbc02dae6, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1816229227}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 4a5361c69327453438ec456734fe86f1, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 975cb69c4262d54409cb8e803d06d39c, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1538250412}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 975cb69c4262d54409cb8e803d06d39c, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1279657649}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: f8dffd3164c943548ac3771d338dc478, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 19717f2abfb87ec4da2da9c26d67ddb4, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 516347141}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 235c4aa7d1d90ed42a4b54c07723ccca, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 70e9473c3496f89448df9623ef32b9b6, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1472773770}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: d8cb8acaad6962241bf31008ca9ab4f2, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 09c37dca59fb6a5459e2e803a3913f8c, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 755668318}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 4986fa8f20362f2469699a1618390bb1, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 2450d83faa459134ab96972d7cc8db42, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1805200838}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 3c6553ffb92667b4ba0dbb88f2992c89, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0d8cbd8b5fd2c4f458a44297a10d4799, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 887163268}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 33b88870918611e4c9577d0155a750d9, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b68d11491f24f95488e0df466aa8b80b, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 408500355}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 0fc144a5244763648b6b30433f1e1d27, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b68d11491f24f95488e0df466aa8b80b, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 794948153}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: aaa402634b3a6de43ab108a604175d3d, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b68d11491f24f95488e0df466aa8b80b, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 429440940}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 0ef1a01be28a7e443b2f66b48ae98509, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: b68d11491f24f95488e0df466aa8b80b, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 958943147}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - nameIdObj: {fileID: 11400000, guid: 2eac7fcd7bed62e4287c286e9fc29bec, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 70e9473c3496f89448df9623ef32b9b6, type: 2}
+          m_MethodName: MoveToValue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1765847934}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!65 &819984942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819984939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6706145, y: 0.71682096, z: 1.8834972}
+  m_Center: {x: 2.4691348, y: -0.06471956, z: -4.029066}
+--- !u!4 &819984943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819984939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 69
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824202812
 GameObject:
   m_ObjectHideFlags: 0
