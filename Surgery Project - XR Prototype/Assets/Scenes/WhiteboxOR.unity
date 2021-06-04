@@ -8750,10 +8750,10 @@ GameObject:
   m_Component:
   - component: {fileID: 391429953}
   - component: {fileID: 391429954}
-  - component: {fileID: 391429955}
   - component: {fileID: 391429956}
   - component: {fileID: 391429957}
   - component: {fileID: 391429958}
+  - component: {fileID: 391429955}
   m_Layer: 16
   m_Name: Screw Socket
   m_TagString: Untagged
@@ -8797,7 +8797,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 391429952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
@@ -24310,8 +24310,8 @@ GameObject:
   m_Component:
   - component: {fileID: 815418940}
   - component: {fileID: 815418943}
-  - component: {fileID: 815418942}
   - component: {fileID: 815418941}
+  - component: {fileID: 815418942}
   m_Layer: 16
   m_Name: Drill Bit Socket Trigger Femur Step
   m_TagString: Untagged
@@ -24349,7 +24349,7 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 815418942}
+      - m_Target: {fileID: 0}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -24369,7 +24369,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 815418939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
@@ -24407,15 +24407,15 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 0
+  m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 0
+  m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
 --- !u!65 &815418943
@@ -39678,9 +39678,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1415578116}
   - component: {fileID: 1415578121}
-  - component: {fileID: 1415578120}
   - component: {fileID: 1415578118}
   - component: {fileID: 1415578117}
+  - component: {fileID: 1415578119}
   m_Layer: 16
   m_Name: Screw Socket
   m_TagString: Untagged
@@ -39769,7 +39769,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1415578120}
+      - m_Target: {fileID: 1415578119}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -39780,7 +39780,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &1415578120
+--- !u!114 &1415578119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39789,14 +39789,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1415578115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 1415578116}
+  m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEntered:
     m_PersistentCalls:
@@ -49584,8 +49584,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1802091980}
   - component: {fileID: 1802091983}
-  - component: {fileID: 1802091982}
   - component: {fileID: 1802091981}
+  - component: {fileID: 1802091982}
   m_Layer: 16
   m_Name: Drill Bit Socket Trigger Femur Step
   m_TagString: Untagged
@@ -49623,7 +49623,7 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1802091982}
+      - m_Target: {fileID: 0}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -49643,7 +49643,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1802091979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
@@ -49681,15 +49681,15 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 0
+  m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 0
+  m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
 --- !u!65 &1802091983
@@ -52612,8 +52612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1890925862}
   - component: {fileID: 1890925865}
-  - component: {fileID: 1890925864}
   - component: {fileID: 1890925863}
+  - component: {fileID: 1890925864}
   m_Layer: 16
   m_Name: Drill Bit Socket Trigger Femur Step
   m_TagString: Untagged
@@ -52651,7 +52651,7 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1890925864}
+      - m_Target: {fileID: 0}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -52671,7 +52671,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890925861}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
@@ -52709,12 +52709,12 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 0
+  m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
@@ -56296,7 +56296,7 @@ MonoBehaviour:
   m_System: {fileID: 0}
   m_MoveSpeed: 1
   m_EnableStrafe: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_GravityApplicationMode: 1
   m_ForwardSource: {fileID: 0}
   m_InputBinding: 0
