@@ -22532,9 +22532,9 @@ GameObject:
   m_Component:
   - component: {fileID: 790995128}
   - component: {fileID: 790995129}
-  - component: {fileID: 790995130}
   - component: {fileID: 790995132}
   - component: {fileID: 790995131}
+  - component: {fileID: 790995130}
   m_Layer: 16
   m_Name: Drill Bit Socket Trigger
   m_TagString: Untagged
@@ -22578,14 +22578,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 790995127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1307800860}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 790995128}
+  m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEntered:
     m_PersistentCalls:
@@ -22632,10 +22632,10 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 0
+  m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 0
+  m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
 --- !u!114 &790995131
@@ -22654,7 +22654,7 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 790995130}
+      - m_Target: {fileID: 0}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -22681,7 +22681,7 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 790995130}
+      - m_Target: {fileID: 0}
         m_MethodName: set_socketActive
         m_Mode: 6
         m_Arguments:
@@ -43187,9 +43187,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1540488114}
-  - component: {fileID: 1540488115}
   - component: {fileID: 1540488116}
   - component: {fileID: 1540488117}
+  - component: {fileID: 1540488115}
+  - component: {fileID: 1540488118}
+  - component: {fileID: 1540488119}
   m_Layer: 29
   m_Name: Tip Socket
   m_TagString: Untagged
@@ -43204,8 +43206,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540488113}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0491, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.0000002980232, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0262, y: 0, z: -0.0004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1460853946}
@@ -43220,33 +43222,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540488113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b4e5223f26222b42aa961a252d38554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1307800860}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_AttachTransform: {fileID: 0}
-  m_StartingSelectedInteractable: {fileID: 0}
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 0}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 1
-  m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 1
 --- !u!65 &1540488116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43258,8 +43236,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.02, z: 0.02}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.051599983, y: 0.02, z: 0.02}
+  m_Center: {x: 0.015799994, y: 0, z: -0.0000000016921438}
 --- !u!114 &1540488117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43300,6 +43278,54 @@ MonoBehaviour:
   onTriggerExitEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1540488118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540488113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162f328d12daac94a86cb66f59e82e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1540488119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540488113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dfe34885b50964e85f8a76196b1129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1307800860}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
 --- !u!1001 &1540925412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57711,7 +57737,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6767200784180545823}
-  m_LocalRotation: {x: -0.7164447, y: 0.039825425, z: -0.041036557, w: -0.6952964}
+  m_LocalRotation: {x: -0.7164432, y: 0.03982558, z: -0.04103654, w: -0.69529784}
   m_LocalPosition: {x: 1.9312569, y: 1.675677, z: -3.658349}
   m_LocalScale: {x: 0.37916073, y: 0.53595066, z: 0.45144066}
   m_Children:

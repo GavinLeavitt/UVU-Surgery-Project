@@ -16,6 +16,8 @@ public class DisableOnTrueSocketInteractor : XRSocketInteractor
         }
     }
 
+    public override XRBaseInteractable.MovementType? selectedInteractableMovementTypeOverride => XRBaseInteractable.MovementType.Instantaneous;
+
     public void ChangeBool(bool value)
     {
         disableObj = value;

@@ -7,6 +7,11 @@ public class TransformBehavior : MonoBehaviour
         transform.rotation = obj.transform.rotation;
     }
 
+    public void UpdateOtherRotation(GameObject obj)
+    {
+        obj.transform.rotation = transform.rotation;
+    }
+
     //Would be called in an update function or Unity Event
     public void ConstantRotateY(Transform transformObj)
     {
