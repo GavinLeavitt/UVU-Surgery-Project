@@ -6,6 +6,13 @@ public class DisableOnTrueSocketInteractor : XRSocketInteractor
     // if bool is true AND on select exited is called: DISABLE THE SOCKET
     public bool disableObj;
 
+    protected override void OnSelectEntered(XRBaseInteractable interactable)
+    {
+        base.OnSelectEntered(interactable);
+        
+        interactable.gameObject.transform.SetParent(transform);
+    }
+    
     protected override void OnSelectExited(XRBaseInteractable interactable)
     {
         base.OnSelectExited(interactable);
